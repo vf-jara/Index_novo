@@ -12,8 +12,6 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/libraries.css">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 </head>
 
 <body>
@@ -70,7 +68,7 @@
                       <div class="col-sm-6 dropdown-menu-col">
                         <a href="servicos.html" class="nav__item-link dropdown-menu-title">O que fazemos</a>
                         <ul class="nav flex-column">
-                          <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Consultoria em
+                          <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-marketing/">Consultoria em
                               Marketing</a>
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Consultoria em
