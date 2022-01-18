@@ -65,7 +65,7 @@
                 <ul class="dropdown-menu wide-dropdown-menu">
                   <li class="nav__item">
                     <div class="row mx-0">
-                      <div class="col-sm-6 dropdown-menu-col">
+                      <div class="col-sm-12 dropdown-menu-col">
                         <a href="servicos.html" class="nav__item-link dropdown-menu-title">O que fazemos</a>
                         <ul class="nav flex-column">
                           <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-marketing/">Consultoria em
@@ -80,27 +80,6 @@
                           <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Criação de
                               Chatbots</a>
                           </li> <!-- /.nav-item -->
-                        </ul>
-                      </div><!-- /.col-sm-6 -->
-                      <div class="col-sm-6 dropdown-menu-col">
-                        <a href="industries.html" class="nav__item-link dropdown-menu-title">Cases de Sucesso</a>
-                        <ul class="nav flex-column">
-                          <li class="nav__item"><a class="nav__item-link"
-                              href="industries-single-industry.html">Educação</a></li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link"
-                              href="industries-single-industry.html">Saúde</a></li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link"
-                              href="industries-single-industry.html">Indústrias</a></li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">E-commerce</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item">
-                            <a class="nav__item-link" href="industries-single-industry.html">Negócios locais</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link"
-                              href="industries-single-industry.html">Varejo</a>
-                          </li>
-                          <!-- /.nav-item -->
                         </ul>
                       </div><!-- /.col-sm-6 -->
                     </div><!-- /.row -->

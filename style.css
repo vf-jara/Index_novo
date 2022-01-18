@@ -60,23 +60,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: 17px;
-  color: #9b9b9b;
+  font-size: 17px;
+  color: #6d6d6d;
   overflow-x: hidden;
 }
 
 ::-moz-selection {
-  background-color: #47a145;
+  background-color: #a4d50d;
   color: #ffffff;
 }
 
 ::selection {
-  background-color: #47a145;
+  background-color: #a4d50d;
   color: #ffffff;
 }
 
 a {
-  color: #47a145;
+  color: #a4d50d;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
@@ -1138,7 +1138,7 @@ h6 {
 
 .heading__subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #A4D50D;
   margin-bottom: 12px;
 }
@@ -1354,6 +1354,11 @@ h6 {
 .page-title-layout9 {
   padding-bottom: 35px;
   margin-top:-100px;
+}
+@media (min-width: 320px) and (max-width: 992px){
+  .page-title-layout9{
+    margin-top:0;
+  }
 }
 
 .page-title-layout9 .breadcrumb {
@@ -4710,6 +4715,7 @@ input[type=radio] {
 .fancybox-item {
   position: relative;
   margin-bottom: 40px;
+  min-height: 300px;
 }
 
 .fancybox-item .fancybox__icon {
@@ -4727,7 +4733,7 @@ input[type=radio] {
 }
 
 .fancybox-item .fancybox__desc {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -7235,7 +7241,7 @@ input[type=radio] {
 }
 
 .banner-layout3 .heading__desc {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .banner-layout3 .banner-img {
@@ -7266,7 +7272,7 @@ input[type=radio] {
 
 .banner-layout3 .fancybox-item .fancybox__desc {
   color: #f4f4f4;
-  max-width: 300px;
+  max-width: 90%;
 }
 
 .banner-layout3 .fancybox-item .fancybox__icon {

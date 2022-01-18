@@ -11,27 +11,19 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h1 class="pagetitle__heading">Software Dev Services</h1>
-            <p class="pagetitle__desc">With shorter product cycles, innovation, and mergers contributing to constant
-              change, you are faced making business decisions every day.
+            <h1 class="pagetitle__heading">Consultoria em Marketing</h1>
+            <p class="pagetitle__desc">Concentre-se no seu negócio e nós te ajudamos com o marketing!
             </p>
             <div class="d-flex align-items-center flex-wrap">
               <a href="request-quote.html" class="btn btn__white btn__icon mr-30">
-                <span>Get Started</span><i class="icon-arrow-right"></i>
-              </a>
-              <a class="video__btn video__btn-rounded video__btn-white popup-video"
-                href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title color-white">Our Video!</span>
+                <span>Solicite um Orçamento</span><i class="icon-arrow-right"></i>
               </a>
             </div>
             <nav>
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="it-solutions.html">IT Solutions</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Software Dev</li>
+                <li class="breadcrumb-item"><a href="it-solutions.html">Serviços</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Consultoria em Marketing</li>
               </ol>
             </nav>
           </div><!-- /.col-xl-6 -->
@@ -47,12 +39,10 @@
         <div class="row">
           <div class="col-12">
             <nav class="nav nav-tabs justify-content-center">
-              <a href="#" data-scroll="about" class="nav__link">Overview</a>
-              <a href="#" data-scroll="banner3" class="nav__link">How It Works </a>
-              <a href="#" data-scroll="case-studies" class="nav__link">Case Studies</a>
-              <a href="#" data-scroll="pricing" class="nav__link">Pricing & Plans</a>
-              <a href="#" data-scroll="banner1" class="nav__link">Request A Quote </a>
-              <a href="#" data-scroll="faqs" class="nav__link">Help & FAQs</a>
+              <a href="#" data-scroll="about" class="nav__link">Descrição</a>
+              <a href="#" data-scroll="banner3" class="nav__link">Principais Serviços</a>
+              <a href="#" data-scroll="case-studies" class="nav__link">Estudos de Caso</a>
+              <a href="#" data-scroll="banner1" class="nav__link">Entre em Contato</a>
             </nav>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -69,78 +59,30 @@
             <div class="heading mb-40">
               <div class="d-flex align-items-center mb-20">
                 <div class="divider divider-primary mr-30"></div>
-                <h2 class="heading__subtitle mb-0">Timely Service Delivery &amp; Incident Resolutions!! </h2>
               </div>
-              <h3 class="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
-                other IT departments!!
+              <h3 class="heading__title mb-40">Consultoria em marketing
               </h3>
             </div>
           </div><!-- /.col-xl-5 -->
         </div><!-- /.row -->
         <div class="row about__Text">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <div class="offset-xl-2 position-relative">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-11">
+            <div class=" position-relative">
               <i class="icon-quote"></i>
-              <p>SmartData has been helping organizations throughout the World to manage their IT with our unique
-                approach
-                to technology management and consultancy solutions. Provide users with appropriate view and access
-                permissions to requests, problems, changes, contracts, assets, solutions, and reports </p>
-              <p>You need information security services to proactively prevent and protect confidential data, as well as
-                detect internal and external threats. Protect your business by choosing managed security service
-                provider.
-                Our security services can help ensure your business Trusted by the world's best organizations.</p>
-              <p>for 15 years and running, it has been delivering smiles to hundreds of IT advisors, developers, users,
-                and business owners. Easy solutions for all difficult IT problems to ensure high availability.</p>
-              <p>Provide users with appropriate view and access permissions to requests, problems, changes, contracts,
-                assets, solutions, and reports with our experienced professionals. </p>
-              <img src="assets/images/about/singnture.png" alt="singnture" class="mt-20">
+              <p>Independentemente do tamanho do negócio, toda empresa tem o desejo de aumentar as vendas e os lucros. Para isso, uma das melhores coisas a se fazer é contratar uma consultoria em marketing.</p>
+              <p>Com esse serviço, o seu negócio terá o suporte de profissionais qualificados, que realmente entendem de marketing e que otimizarão os seus investimentos em publicidade e comunicação.</p>
+              <p><strong>Quer saber mais sobre o assunto e entender, de fato, o que é uma consultoria em marketing? Então, prossiga com a leitura!</strong> </p>
+              <h5>Afinal, o que é uma consultoria em marketing?</h5>
+              <p>A consultoria em marketing é um serviço que visa aconselhar as empresas sobre as melhores ações a serem realizadas nessa área. Dessa forma, os investimentos são direcionados da melhor forma possível e o contratante consegue melhores resultados em vendas, bem como ganhos em imagem e reputação.</p>
+              <h5>Como é feito o trabalho de uma consultoria em marketing?</h5>
+              <p>O trabalho de uma consultoria em marketing, inicialmente, realiza um diagnóstico para identificar métricas, indicadores e outros pontos que podem ser melhorados na empresa.</p>
+              <p>Para isso, é necessário conhecer as diretrizes organizacionais, como a missão, a visão e os valores da empresa. Os consultores também analisam relatórios de vendas, mapeiam a presença da marca nas redes sociais e outros canais, entre outras atividades.</p>
+              <p>Também é feito um completo estudo de públicos do negócio, bem como a definição das personas (personagens semi fictícios e que representam o cliente ideal). Isso é importante para que as estratégias de marketing sejam pensadas para atingir a quem realmente pode se tornar um lead ou consumidor da empresa.</p>
+              <p>A partir de todo esse trabalho é montado um diagnóstico, que apresenta como está o marketing da empresa atualmente e o que deve ser melhorado para que os resultados desejados sejam alcançados.</p>
+              <p>Assim, o consultor propõe um planejamento estratégico de marketing, que conta com todos os serviços e ações que devem ser realizadas na empresa.</p>
             </div>
-            <div class="about__img mt-80 mb-30">
-              <img src="assets/images/about/7.jpg" alt="about">
-            </div><!-- /.about__img-->
-            <div class="video__btn-wrapper">
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title">Watch Our Presentation!</span>
-              </a>
-            </div><!-- /.video__btn-wrapper-->
+
           </div><!-- /.col-xl-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
-            <p class="mb-40">As one of the world's largest ITService Providers, our deep pool of certified engineers and
-              IT staff are ready to help you to keep your IT business safe & ensure high availability.</p>
-            <!-- progress 1 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cyber Security</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-            <!-- progress 2 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cloud Computing</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-            <!-- progress 3 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cloud Computing</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-            <div class="about__img mt-90">
-              <img src="assets/images/about/3.jpg" alt="about">
-            </div>
-          </div><!-- /.col-xl-5 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.About Layout 3 -->
@@ -152,8 +94,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p class="text__link text-center mb-30">Trusted By The World's
-              <a href="it-solutions.html" class="btn btn__link btn__primary btn__underlined">Best Organizations</a>
+            <p class="text__link text-center mb-30">Certificações e 
+              <a href="it-solutions.html" class="btn btn__link btn__primary btn__underlined">Parcerias</a>
             </p>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -162,32 +104,32 @@
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 6, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
               <div class="client">
-                <img src="assets/images/clients/1.png" alt="client">
-                <img src="assets/images/clients/1.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/google-agencia-index-dc.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/google-agencia-index-dc.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/2.png" alt="client">
-                <img src="assets/images/clients/2.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/growthhackers_logo_color-1.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/growthhackers_logo_color-1.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/3.png" alt="client">
-                <img src="assets/images/clients/3.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/logo-galax-pay-2-1.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/logo-galax-pay-2-1.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/4.png" alt="client">
-                <img src="assets/images/clients/4.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/zenvia-agencia-index-dc.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/zenvia-agencia-index-dc.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/5.png" alt="client">
-                <img src="assets/images/clients/5.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/moskit-crm-agencia-index-dc.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/moskit-crm-agencia-index-dc.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/6.png" alt="client">
-                <img src="assets/images/clients/6.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/onclick_partner_2021-2.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/onclick_partner_2021-2.png" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="assets/images/clients/7.png" alt="client">
-                <img src="assets/images/clients/7.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/rd_gold-e1612383208233.png" alt="client">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/rd_gold-e1612383208233.png" alt="client">
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-12 -->
@@ -199,94 +141,72 @@
            Banner layout 3
     =========================== -->
     <section id="banner3" class="banner-layout3 pb-70">
-      <div class="bg-img"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/1.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 fancybox-light">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
             <div class="heading heading-light mb-60">
-              <h3 class="heading__title mb-30">Keep business safe & ensure high availability.</h3>
-              <p class="heading__desc">As one of the world's largest ITService Providers, our deep pool of certified
-                engineers and IT staff are ready to help you to keep your IT business safe & ensure high availability.
-              </p>
+              <h3 class="heading__title mb-30">Quais são os principais serviços que uma empresa de marketing oferece?</h3>
+              <h4 class="heading__desc">Entre as principais estratégias de marketing que podem ser propostas por uma consultoria, destacamos as relacionadas a seguir. Veja!
+              </h4>
             </div><!-- /.heading -->
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 fancybox-light"> 
             <!-- fancybox item #1 -->
-            <div class="fancybox-item d-flex flex-wrap">
+            <div class="fancybox-item">
               <div class="fancybox__icon">
                 <i class="icon-coding"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
-                <h4 class="fancybox__title">Knowledge Base</h4>
-                <p class="fancybox__desc">Software assets including purchasing, deployment & maintenance. Manage
-                  all aspects of your software assets including purchasing, deployment, maintenance, utilization, and
-                  disposal.
+                <h4 class="fancybox__title">Inbound marketing</h4>
+                <p class="fancybox__desc">O inbound marketing é uma estratégia que envolve uma série de ações voltadas para a criação e compartilhamento de informações de interesse para um determinado público.
+                  Ao  praticar o inbound marketing, portanto, são produzidos conteúdos para blogs, redes sociais e outros canais da empresa, visando atrair a atenção do público. 
+                  Todos os materiais produzidos seguem regras de SEO, para que sejam bem posicionados em buscas em sites de pesquisa, como o Google.
                 </p>
-                <a href="#" class="btn btn__white btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
             <!-- fancybox item #2 -->
-            <div class="fancybox-item d-flex flex-wrap">
+            <div class="fancybox-item">
               <div class="fancybox__icon">
                 <i class="icon-programming2"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
-                <h4 class="fancybox__title">Custom Requests</h4>
-                <p class="fancybox__desc">Build and publish dynamic request templates with associated workflows,
-                  all aspects of your software assets including purchasing, deployment, maintenance, utilization, and
-                  disposal.
+                <h4 class="fancybox__title">Design</h4>
+                <p class="fancybox__desc">No campo do design, a consultoria pode propor melhorias na identidade visual da empresa, como a renovação do logotipo e das peças gráficas. O desenvolvimento de sites e blogs também entra nesse segmento, tendo em vista que as páginas são criadas por web designers.
                 </p>
-                <a href="#" class="btn btn__white btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
               </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
+            </div><!-- /.fancybox-item -->           
+          </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 fancybox-light">
             <!-- fancybox item #3 -->
-            <div class="fancybox-item d-flex flex-wrap">
+            <div class="fancybox-item">
               <div class="fancybox__icon">
                 <i class="icon-script"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
-                <h4 class="fancybox__title">License Management</h4>
-                <p class="fancybox__desc">Build and publish dynamic request templates with associated workflows,
-                  all aspects of your software assets including purchasing, deployment, maintenance, utilization, and
-                  disposal.
-                </p>
-                <a href="#" class="btn btn__white btn__link">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
+                <h4 class="fancybox__title">Campanhas pagas</h4>
+                <p class="fancybox__desc">Os especialistas em tráfego pago gerenciam os anúncios das empresas em plataformas como o Google Ads e o Facebook Ads. A ideia é agir estrategicamente para que os anúncios sejam mostrados apenas para os públicos de interesse. Assim, os investimentos são mais certeiros e se evita “jogar dinheiro fora” ao investir em publicidade paga.</p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
-          </div><!-- /.col-xl-5 -->
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
-            <div class="sticky-top">
-              <div class="banner-img">
-                <img src="assets/images/banners/5.jpg" alt="banner">
-                <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                  <div class="video__player">
-                    <i class="fa fa-play"></i>
-                  </div>
-                </a>
-              </div>
-              <div class="d-flex flex-wrap justify-content-end read-note mt-40">
-                <div class="rating mb-10 mr-50">
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                </div>
-                <p class="read-note__text color-white">
-                  <span class="font-weight-bold text-underlined">99.9% Customer Satisfaction</span>
-                  based on 750+ reviews and 20,000 Objective Resource
+            <!-- fancybox item #4 -->
+            <div class="fancybox-item">
+              <div class="fancybox__icon">
+                <i class="icon-script"></i>
+              </div><!-- /.fancybox__icon -->
+              <div class="fancybox__content">
+                <h4 class="fancybox__title">Social media</h4>
+                <p class="fancybox__desc">Boa parte das ações de marketing, hoje em dia, se desenvolvem nas redes sociais. Por isso, é de fundamental importância investir nesse segmento.
+                 Os estrategistas de marketing podem sugerir melhorias na produção de conteúdo, bem como nas ações voltadas para o relacionamento em redes como o Instagram, o Facebook, o Twitter, entre outras.
                 </p>
-              </div>
-            </div>
-          </div><!-- /.col-xl-7 -->
-        </div><!-- /.row -->
+              </div><!-- /.fancybox-content -->
+            </div><!-- /.fancybox-item -->
+          </div><!-- /.col-xl-6 -->  
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
+            <div class="heading heading-light mb-60">
+              <h3 align="center" class="heading__title mb-30">Para saber mais sobre o assunto e aumentar as suas vendas,<br> <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">agende um café com os nossos especialistas.</a><br> Teremos satisfação em atendê-lo!</h3>
+            </div><!-- /.heading -->
+          </div> 
+         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.Banner layout 3 -->
 
@@ -300,9 +220,9 @@
             <div class="heading mb-50">
               <div class="d-flex align-items-center">
                 <div class="divider divider-primary mr-30"></div>
-                <h2 class="heading__subtitle mb-0">Success Stories</h2>
+                <h2 class="heading__subtitle mb-0">Histórias de Sucesso</h2>
               </div>
-              <h3 class="heading__title mb-0">Latest Case Studies</h3>
+              <h3 class="heading__title mb-0">Últimos Estudos de Caso</h3>
             </div>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -313,7 +233,7 @@
               <!-- portfolio item #1 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/1.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -324,7 +244,7 @@
                   <p class="portfolio__desc">We delivered solutions at every step, and moved seamlessly into a more
                     proactive role as a strategic advisor, providing support and guidance across all IT topics.</p>
                   <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
+                    <span>Leia Mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.portfolio-content -->
@@ -332,7 +252,7 @@
               <!-- portfolio item #2 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/2.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -344,7 +264,7 @@
                     selling and activation of their wireless services and devices, and serves as the backbone of the
                     operations.</p>
                   <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
+                    <span>Leia Mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.portfolio-content -->
@@ -352,7 +272,7 @@
               <!-- portfolio item #3 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/3.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -363,7 +283,7 @@
                   <p class="portfolio__desc">Servers going down on a weekly basis had become the organization’s
                     “normal.” We came on board with the objective of stabilizing the environment, assisting </p>
                   <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
+                    <span>Leia Mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.portfolio-content -->
@@ -371,7 +291,7 @@
               <!-- portfolio item #4 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/4.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/4.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -390,7 +310,7 @@
               <!-- portfolio item #5 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/5.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/5.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -410,7 +330,7 @@
               <!-- portfolio item #6 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="assets/images/portfolio/grid/6.jpg" alt="portfolio img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/6.jpg" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <div class="portfolio__cat">
@@ -432,127 +352,12 @@
       </div><!-- /.container -->
     </section><!-- /.portfolio Grid  -->
 
-    <!-- =========================
-      Pricing  
-      =========================== -->
-    <section id="pricing" class="pricing pt-130 bg-top-center">
-      <div class="bg-img"><img src="assets/images/backgrounds/15.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center mb-50">
-              <h2 class="heading__subtitle">Suitable For Small To Midsize Businesses</h2>
-              <h3 class="heading__title">Effective & flexible pricing that adapts your needs!</h3>
-            </div><!-- /.heading -->
-          </div><!-- /.col-lg-6 -->
-        </div>
-        <div class="row row-no-gutter pricing-wrapper">
-          <!-- pricing item #1-->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="pricing-item d-flex flex-column justify-content-between">
-              <div>
-                <div class="pricing__top">For Small Teams</div>
-                <div class="pricing__header">
-                  <h5 class="pricing__title">Starter Plan</h5>
-                  <div class="pricing__price">
-                    <span class="pricing__currency">$</span><span>49,99</span><span
-                      class="pricing__time">/Monthly</span>
-                  </div>
-                </div><!-- /.pricing__header  -->
-                <div class="pricing__content">
-                  <p class="pricing__desc">Fast project turnaround time, substantial cost savings & quality
-                    standards.
-                  </p>
-                  <ul class="pricing__list list-items list-items-layout2 list-unstyled">
-                    <li>Five Brand Monitors</li>
-                    <li>Five Keyword Monitors</li>
-                    <li>Full Social Profiles</li>
-                  </ul>
-                </div><!-- /.pricing__content  -->
-              </div>
-              <div class="pricing__footer">
-                <a href="#" class="btn btn__secondary btn__block btn__icon">
-                  <span>Purchase Now</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.pricing__footer  -->
-            </div><!-- /.pricing-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- pricing item #2-->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="pricing-item d-flex flex-column justify-content-between">
-              <div>
-                <div class="pricing__top">For Small And Beginning Business</div>
-                <div class="pricing__header">
-                  <h5 class="pricing__title">Basic Plan</h5>
-                  <div class="pricing__price">
-                    <span class="pricing__currency">$</span><span>79,99</span><span
-                      class="pricing__time">/Monthly</span>
-                  </div>
-                </div><!-- /.pricing__header  -->
-                <div class="pricing__content">
-                  <p class="pricing__desc">Fast project turnaround time, substantial cost savings & quality
-                    standards.
-                  </p>
-                  <ul class="pricing__list list-items list-items-layout2 list-unstyled">
-                    <li>Five Brand Monitors</li>
-                    <li>Five Keyword Monitors</li>
-                    <li>Full Social Profiles</li>
-                    <li>500 Search Results </li>
-                  </ul>
-                </div><!-- /.pricing__content  -->
-              </div>
-              <div class="pricing__footer">
-                <a href="#" class="btn btn__primary btn__block btn__icon">
-                  <span>Purchase Now</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.pricing__footer  -->
-            </div><!-- /.pricing-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- pricing item #3-->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="pricing-item d-flex flex-column justify-content-between">
-              <div>
-                <div class="pricing__top">For Big Teams And Enterprise</div>
-                <div class="pricing__header">
-                  <h5 class="pricing__title">Advanced Plan</h5>
-                  <div class="pricing__price">
-                    <span class="pricing__currency">$</span><span>99,99</span><span
-                      class="pricing__time">/Monthly</span>
-                  </div>
-                </div><!-- /.pricing__header  -->
-                <div class="pricing__content">
-                  <p class="pricing__desc">Fast project turnaround time, substantial cost savings & quality
-                    standards.
-                  </p>
-                  <ul class="pricing__list list-items list-items-layout2 list-unstyled">
-                    <li>Five Brand Monitors</li>
-                    <li>Five Keyword Monitors</li>
-                    <li>Basic Quota </li>
-                    <li>PDF reports</li>
-                    <li>Full Social Profiles</li>
-                    <li>500 Search Results </li>
-                  </ul>
-                </div><!-- /.pricing__content  -->
-              </div>
-              <div class="pricing__footer">
-                <a href="#" class="btn btn__secondary btn__block btn__icon">
-                  <span>Purchase Now</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.pricing__footer  -->
-            </div><!-- /.pricing-item -->
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.pricing  -->
 
     <!-- =========================
        Banner layout 1
       =========================== -->
     <section id="banner1" class="banner-layout1 pt-90 pb-90 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="assets/images/banners/5.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/banners/5.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner d-flex flex-column justify-content-between">
@@ -633,19 +438,19 @@
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/1.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
               </div><!-- /.slcik-nav -->
             </div>
@@ -706,136 +511,5 @@
       </div><!-- /.container -->
     </section><!-- /.Banner layout 1 -->
 
-    <!-- ======================
-       FAQ
-    ========================= -->
-    <section id="faqs" class="faq pt-120 pb-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center mb-50">
-              <h2 class="heading__subtitle">Our Pricing Features</h2>
-              <h3 class="heading__title">Frequently asked questions</h3>
-            </div><!-- /.heading -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-        <div class="row" id="accordion">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__title" href="#">Which Plan Is Right For Me?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse1" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__title" href="#">Do I have to commit to a contract?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse2" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item opened">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__title" href="#">What Payment Methods Are Available?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse3" class="collapse show" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-          </div><!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse6">
-                <a class="accordion__title" href="#">What are my payment options?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse6" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse7">
-                <a class="accordion__title" href="#">How does the free trial work?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse7" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse8">
-                <a class="accordion__title" href="#">What Payment Methods Are Available?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse8" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse9">
-                <a class="accordion__title" href="#">How does the free trial work?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse9" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item opened">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse10">
-                <a class="accordion__title" href="#">If I have questions, where can I find answers? </a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse10" class="collapse show" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.FAQ -->
 
     <?php get_footer(); ?>
