@@ -11,29 +11,27 @@
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-xl-3 -->
             <div class="col-sm-6 col-md-4 col-lg-2 footer-widget footer-widget-nav">
-              <h6 class="footer-widget__title">Company</h6>
+              <h6 class="footer-widget__title">A Empresa</h6>
               <div class="footer-widget__content">
                 <nav>
                   <ul class="list-unstyled">
                     <li><a href="about-us.html">Sobre nós</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="projects-grid.html">Case Studies</a></li>
+                    <li><a href="projects-grid.html">Estudos de Caso</a></li>
                     <li><a href="contact-us.html">Contato</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-6 col-md-4 col-lg-2 footer-widget footer-widget-nav">
-              <h6 class="footer-widget__title">Solutions</h6>
+              <h6 class="footer-widget__title">Serviços</h6>
               <div class="footer-widget__content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">IT Management</a></li>
-                    <li><a href="#">Cyber Security</a></li>
-                    <li><a href="#">Cloud Computing</a></li>
-                    <li><a href="#">IT Consulting</a></li>
-                    <li><a href="#">Software Dev</a></li>
-                    <li><a href="#">IT Support</a></li>
+                    <li><a href="/consultoria-em-marketing/">Consultoria em Marketing</a></li>
+                    <li><a href="/consultoria-em-vendas/">Consultoria em Vendas</a></li>
+                    <li><a href="/integracao-mkt-e-vendas/">Integração Marketing e Vendas</a></li>
+                    <li><a href="/contrucao-de-chatbots/">Construção de Chatbots</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->

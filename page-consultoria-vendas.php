@@ -3,6 +3,12 @@
 // Template Name: Consultoria em Vendas
 ?>
 <?php get_header(); ?>
+<script type="text/javascript">
+    const elemento = document.getElementById("nav-servicos");
+
+    if (elemento.classList) elemento.classList.add("active");
+    else elemento.className += " active";
+</script>
     <!-- ========================
        page title 
     =========================== -->

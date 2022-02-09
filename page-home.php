@@ -3,7 +3,12 @@
 // Template Name: Home
 ?>
 <?php get_header(); ?>
+<script type="text/javascript">
+    const elemento = document.getElementById("nav-home");
 
+    if (elemento.classList) elemento.classList.add("active");
+    else elemento.className += " active";
+</script>
 
     <!-- ============================
         Slider

@@ -47,10 +47,10 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav ml-auto">
               <li class="nav__item">
-                <a href="/" class="nav__item-link active">Home</a>
+                <a href="/" id="nav-home" class="nav__item-link">Home</a>
               </li><!-- /.nav-item -->
               <li class="nav__item  has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Sobre</a>
+                <a href="#" data-toggle="dropdown" id="nav-sobre" class="dropdown-toggle nav__item-link">Sobre</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="sobre.html" class="nav__item-link">Quem somos</a>
@@ -61,7 +61,7 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item  has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Serviços</a>
+                <a href="#" data-toggle="dropdown" id="nav-servicos" class="dropdown-toggle nav__item-link">Serviços</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
                   <li class="nav__item">
                     <div class="row mx-0">
@@ -89,7 +89,7 @@
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Blog</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="blog.html" class="nav__item-link">Our Blog</a>
+                    <a href="blog.html" id="nav-blog" class="nav__item-link">Our Blog</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
                     <a href="blog-single-post.html" class="nav__item-link">Single Blog Post</a>
