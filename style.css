@@ -82,7 +82,7 @@ a {
 }
 
 a:hover {
-  color: #0e2b3d;
+  color: #6d6d6d;
   text-decoration: none;
 }
 
@@ -3555,11 +3555,11 @@ input[type=radio] {
 
   .navbar .dropdown-menu .nav__item .nav__item-link:before {
     display: none;
-  }
+  } 
 
   .navbar .dropdown-menu.wide-dropdown-menu {
     padding: 0;
-    min-width: 500px;
+    min-width: 300px;
     overflow: hidden;
   }
 

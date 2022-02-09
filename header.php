@@ -66,12 +66,11 @@
                   <li class="nav__item">
                     <div class="row mx-0">
                       <div class="col-sm-12 dropdown-menu-col">
-                        <a href="servicos.html" class="nav__item-link dropdown-menu-title">O que fazemos</a>
                         <ul class="nav flex-column">
                           <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-marketing/">Consultoria em
                               Marketing</a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Consultoria em
+                          <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-vendas/">Consultoria em
                               Vendas</a>
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Integração
