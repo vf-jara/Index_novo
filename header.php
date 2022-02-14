@@ -73,10 +73,10 @@
                           <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-vendas/">Consultoria em
                               Vendas</a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Integração
+                          <li class="nav__item"><a class="nav__item-link" href="integracao-mkt-e-vendas/">Integração
                               Marketing & Vendas</a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="it-solutions-single.html">Criação de
+                          <li class="nav__item"><a class="nav__item-link" href="/criacao-de-chatbots/">Criação de
                               Chatbots</a>
                           </li> <!-- /.nav-item -->
                         </ul>
@@ -89,33 +89,33 @@
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Blog</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="blog.html" id="nav-blog" class="nav__item-link">Our Blog</a>
+                    <a href="/" id="nav-blog" class="nav__item-link">Our Blog</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="blog-single-post.html" class="nav__item-link">Single Blog Post</a>
+                    <a href="/" class="nav__item-link">Single Blog Post</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="case-studies-grid.html" class="nav__item-link">Case Studies Grid</a>
+                    <a href="/" class="nav__item-link">Case Studies Grid</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="case-studies-carousel.html" class="nav__item-link">Case Studies Carousel</a>
+                    <a href="/" class="nav__item-link">Case Studies Carousel</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="case-studies-classic.html" class="nav__item-link">Case Studies Classic</a>
+                    <a href="/" class="nav__item-link">Case Studies Classic</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="case-studies-single.html" class="nav__item-link">Single Case Study</a>
+                    <a href="/" class="nav__item-link">Single Case Study</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item">
-                <a href="contact-us.html" class="nav__item-link">Contatos</a>
+                <a href="/" class="nav__item-link">Contatos</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
           </div><!-- /.navbar-collapse -->
           <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li class="d-none d-xl-block">
-              <a href="request-quote.html" class="btn action__btn-contact">Solicite um Orçamento</a>
+              <a href=/" class="btn action__btn-contact">Solicite um Orçamento</a>
             </li>
           </ul><!-- /.navbar-actions -->
         </div><!-- /.container -->
