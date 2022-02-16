@@ -172,7 +172,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
     ========================= -->
     <section class="features-layout1 pb-50">
       <div class="features-bg">
-        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14.jpg" alt="background"></div>
+        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       </div>
       <div class="container">
         <div class="row heading heading-light mb-30">
@@ -229,7 +229,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
         
       </div><!-- /.container -->
     </section><!-- /.Features Layout 1 -->
-
+<?php /*
     <!-- =========================
        Banner layout 5
       =========================== -->
@@ -436,7 +436,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.Banner layout 5 -->
-
+*/?>
     <!-- ======================
       Blog Grid
     ========================= -->
@@ -491,13 +491,13 @@ Seja líder do seu mercado. Agende uma conversa conosco!
     <!-- =========================
        Banner layout 2
       =========================== -->
-    <section class="banner-layout2 pb-0 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="assets/images/banners/8.jpg" alt="background"></div>
+    <section class="banner-layout2 pb-0 ">
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
             <div class="heading heading-light">
-              <h3 class="heading__title mb-30">Satisfied Users Over The Globe</h3>
+              <h3 class="heading__title mb-30">Veja o que nossos clientes têm a dizer</h3>
             </div>
             <div class="testimonials testimonials-wrapper">
               <div class="slider-with-navs">
@@ -576,7 +576,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
             </div><!-- /.testimonials -->
             <div class="divider divider-light w-100 mt-60 mb-60"></div>
             <div class="heading heading-light">
-              <h3 class="heading__title mb-30">Our Trusted Clients</h3>
+              <h3 class="heading__title mb-30">Nossos Clientes</h3>
             </div>
             <div class="clients">
               <div class="slick-carousel"

@@ -5736,7 +5736,9 @@ input[type=radio] {
 .post__img{
   margin: auto auto;
   width:100%;
+  max-height: 500px;
 }
+
 .post-item {
   position: relative;
   margin-bottom: 50px;
@@ -6211,10 +6213,6 @@ input[type=radio] {
     margin-top: -40px;
     border-top-right-radius: 5px;
     background-color: #ffffff;
-  }
-
-  .bordered-box .row-no-gutter>[class*="col"]:first-child {
-    border-right: 2px solid #e5e8ea;
   }
 
   .widget-nav .widget-nav__content h5 {
@@ -7355,12 +7353,6 @@ input[type=radio] {
   border-bottom: 2px solid #47a145;
 }
 
-/*
-remover esta classe para aparecerem as métricas
-*/
-.banner-layout5{
-  display: none;
-}
 
 .banner-layout5 .counter-item .counter__desc {
   padding-right: 0;
@@ -8590,6 +8582,8 @@ remover esta classe para aparecerem as métricas
     font-weight: 400;
     margin-bottom: 20px;
   }
+
+
 }
 
 /*# sourceMappingURL=style.css.map */

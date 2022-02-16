@@ -33,7 +33,7 @@
     <!-- =========================
         Header 
     =========================== -->
-    <header class="header header-transparent">
+    <header class="header header-transparent" id="header-principal">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
 
@@ -86,25 +86,16 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item  has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Blog</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link" id="nav-blog">Blog</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="/" id="nav-blog" class="nav__item-link">Our Blog</a>
+                    <a href="/blog/"  class="nav__item-link">Nosso Blog</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="/" class="nav__item-link">Single Blog Post</a>
+                    <a href="/" class="nav__item-link">Estudos de Caso</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="/" class="nav__item-link">Case Studies Grid</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="/" class="nav__item-link">Case Studies Carousel</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="/" class="nav__item-link">Case Studies Classic</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="/" class="nav__item-link">Single Case Study</a>
+                    <a href="/" class="nav__item-link">Materiais</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
