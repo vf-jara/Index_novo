@@ -41,7 +41,7 @@ if (head.classList) head.classList.add("header-light");
             <div class="post-item mb-0">
               <div class="post__img">
 
-                 <?php the_post_thumbnail(); ?>
+                 <?php the_post_thumbnail('large', ['class' => 'blog-img-responsiva']); ?>
 
 
               </div><!-- /.post-img -->
@@ -67,9 +67,12 @@ if (head.classList) head.classList.add("header-light");
               <div class="row row-no-gutter ">
                 <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
                   <div class="blog-share d-flex flex-wrap">
+
+                  <?php $postUrl = 'http' . ( isset( $_SERVER['HTTPS'] ) ? 's' : '' ) . '://' . "{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"; ?>
+                  
                     <strong class="mr-20 color-heading">Compartilhe</strong>
                     <ul class="list-unstyled social-icons social-icons-primary d-flex mb-0">
-                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" title="Compartilhe no Facebook"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                       <li><a href="#"><i class="fab fa-google"></i></a></li>
                     </ul>
@@ -124,10 +127,10 @@ if (head.classList) head.classList.add("header-light");
                   <!-- post item #1 -->
                   <div class="widget-post-item d-flex align-items-center">
                     <div class="widget-post__img">
-                      <a href="#"> <?php the_post_thumbnail('thumbnail')?></a>
+                      <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail('thumbnail')?></a>
                     </div><!-- /.widget-post-img -->
                     <div class="widget-post__content">
-                      <h4 class="widget-post__title"><a href="#"><?php the_title(); ?></a></h4>
+                      <h4 class="widget-post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                       <span class="widget-post__date"><?php echo get_the_date(); ?></span>
                     </div><!-- /.widget-post-content -->
                   </div><!-- /.widget-post-item -->

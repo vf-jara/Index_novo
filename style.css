@@ -2248,6 +2248,9 @@ input[type=radio] {
 .icon-arrow-right {
   font-size: 65%;
 }
+.pagination .icon-arrow-right {
+  font-size: 100%;
+}
 
 /*-------------------------
     Breadcrumb
@@ -5737,6 +5740,12 @@ input[type=radio] {
   margin: auto auto;
   width:100%;
   max-height: 500px;
+}
+@media (max-width: 768px){
+  .blog-img-responsiva{
+    width:100%;
+    height:auto;
+  }
 }
 
 .post-item {
