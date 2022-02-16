@@ -74,7 +74,6 @@ if (head.classList) head.classList.add("header-light");
                     <ul class="list-unstyled social-icons social-icons-primary d-flex mb-0">
                       <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" title="Compartilhe no Facebook"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fab fa-google"></i></a></li>
                     </ul>
                   </div><!-- /.blog-share -->
                 </div>
@@ -87,7 +86,7 @@ if (head.classList) head.classList.add("header-light");
                   <img src="assets/images/blog/grid/4.jpg" alt="blog thumb">
                 </div>
                 <div class="widget-nav__content">
-                  <span>Previous Post</span>
+                  <span>Post Anterior</span>
                   <h5 class="fz-16 mb-0">Succession Risks Threaten Leadership Strategy</h5>
                 </div>
               </a><!-- /.blog-prev  -->
@@ -97,7 +96,7 @@ if (head.classList) head.classList.add("header-light");
                   <img src="assets/images/blog/grid/6.jpg" alt="blog thumb">
                 </div>
                 <div class="widget-nav__content">
-                  <span>Next Post</span>
+                  <span>Próximo Post</span>
                   <h5 class="fz-16 mb-0">Employee Engagement Surveys Tell About Employee?</h5>
                 </div>
               </a><!-- /.blog-next  -->
