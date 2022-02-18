@@ -1,6 +1,6 @@
 
 <?php
-// Template Name: Blog
+// Template Name: Blog - Categorias
 ?>
 <?php get_header(); ?>
 <script type="text/javascript">
@@ -13,16 +13,17 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout16 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <section class="page-title page-title-layout16 text-center bg-overlay bg-overlay-gradient bg-parallax" style="margin-top:-100px;">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/12.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="pagetitle__heading mb-10">Blog Index</h1>
+            <h1 class="pagetitle__heading mb-10">Categorias: <?php single_cat_title(); ?></h1>
             <nav>
               <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php single_cat_title(); ?></li>
               </ol>
             </nav>
           </div><!-- /.col-12 -->

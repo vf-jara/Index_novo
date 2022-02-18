@@ -73,12 +73,15 @@ if (head.classList) head.classList.add("header-light");
                     <strong class="mr-20 color-heading">Compartilhe</strong>
                     <ul class="list-unstyled social-icons social-icons-primary d-flex mb-0">
                       <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $postUrl; ?>" title="Compartilhe no Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="https://twitter.com/intent/tweet?url=<?php echo $postUrl; ?>&text=<?php echo the_title(); ?>&via=<?php the_author_meta( 'twitter' ); ?>" title="Tweet this"><i class="fab fa-twitter"></i></a></li>
                     </ul>
                   </div><!-- /.blog-share -->
                 </div>
               </div>
             </div>
+
+            <!-- Navegação entre posts -->
+            <?php /*
             <div class="widget-nav d-flex justify-content-between mb-40">
               <a href="#" class="widget-nav__prev d-flex flex-wrap">
                 <div class="widget-nav__img">
@@ -102,17 +105,19 @@ if (head.classList) head.classList.add("header-light");
               </a><!-- /.blog-next  -->
             </div><!-- /.widget-nav  -->
             
-            
+            */?>
             
           </div><!-- /.col-lg-8 -->
+
           <div class="col-sm-12 col-md-12 col-lg-4 ">
             <aside class="sidebar">
               <div class="widget widget-search">
                 <h5 class="widget__title">Buscar</h5>
                 <div class="widget__content">
                   <form class="widget__form-search">
-                    <input type="text" class="form-control" placeholder="Search...">
-                    <button class="btn" type="submit"><i class="icon-search"></i></button>
+                  <?php get_search_form(); ?>
+                    <input type="text" class="form-control search-form" placeholder="Search...">
+                    <button class="btn search-submit" id="searchsubmit" type="submit"><i class="icon-search"></i></button>
                   </form>
                 </div><!-- /.widget-content -->
               </div><!-- /.widget-search -->
@@ -140,14 +145,13 @@ if (head.classList) head.classList.add("header-light");
                 </div><!-- /.widget-content -->
               </div><!-- /.widget-posts -->
               <div class="widget widget-categories">
-                <h5 class="widget__title">Categories</h5>
+                <h5 class="widget__title">Categorias</h5>
                 <div class="widget-content">
                   <ul class="list-unstyled">
-                    <li><a href="#"><span>IT Management</span><span class="cat-count">9</span></a></li>
-                    <li><a href="#"><span>Cyber Security</span><span class="cat-count">2</span></a></li>
-                    <li><a href="#"><span>Cloud Computing</span><span class="cat-count">5</span></a></li>
-                    <li><a href="#"><span>IT Consulting</span><span class="cat-count">1</span></a></li>
-                    <li><a href="#"><span>Software Dev</span><span class="cat-count">7</span></a></li>
+                  <?php $categories = get_categories('number=20');
+                    foreach ($categories as $cat) {
+                      echo '<li><a href="/'.$cat->slug.'/"><span>'.$cat->cat_name.'</span><span class="cat-count">'.$cat->category_count.'</span></a></li>';
+                    } ?>
                   </ul>
                 </div><!-- /.widget-content -->
               </div><!-- /.widget-categories -->

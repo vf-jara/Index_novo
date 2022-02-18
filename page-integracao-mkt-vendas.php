@@ -206,7 +206,7 @@
       </div><!-- /.container -->
     </section><!-- /.clients -->
 
-    <!-- =========================== 
+     <!-- =========================== 
       portfolio Grid
     ============================= -->
     <section id="case-studies" class="portfolio-grid portfolio-grid-carousel pb-40">
@@ -222,128 +222,33 @@
             </div>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
-        <div class="row">
+        <div class="row">         
+        
           <div class="col-12">
             <div class="slick-carousel"
-              data-slick='{"slidesToShow": 3, "slidesToScroll": 2, "arrows": true, "dots": true, "autoplay": true,"autoplaySpeed": 4000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows": false, "dots": true, "autoplay": true,"autoplaySpeed": 4000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <?php $the_query = new WP_Query( ['posts_per_page=3', 'category_name'=>'Estudos De Caso']); ?>
+              <?php while ($the_query -> have_posts('Estudos de Caso')) : $the_query -> the_post(); ?>
               <!-- portfolio item #1 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/1.jpg" alt="portfolio img">
+                <?php the_post_thumbnail('medium')?>
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Building</a><a href="#">Interior</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">Financial’s Need For
-                      Strategic Advisor</a></h4>
-                  <p class="portfolio__desc">We delivered solutions at every step, and moved seamlessly into a more
-                    proactive role as a strategic advisor, providing support and guidance across all IT topics.</p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                  <h4 class="portfolio__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                  <p class="portfolio__desc"><?php echo get_excerpt(); ?></p>
+                  <a href="<?php the_permalink(); ?>" class="btn btn__secondary btn__link">
                     <span>Leia Mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.portfolio-content -->
               </div><!-- /.portfolio-item -->
-              <!-- portfolio item #2 -->
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/2.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Software</a><a href="#">Support</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">24x7 System Monitoring and
-                      Alert Response</a></h4>
-                  <p class="portfolio__desc">This single, unified platform integrates all operational phases of
-                    selling and activation of their wireless services and devices, and serves as the backbone of the
-                    operations.</p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Leia Mais</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-              <!-- portfolio item #3 -->
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/3.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Management</a><a href="#">Cloud</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">Nonprofit Organization
-                      Utilized Security</a></h4>
-                  <p class="portfolio__desc">Servers going down on a weekly basis had become the organization’s
-                    “normal.” We came on board with the objective of stabilizing the environment, assisting </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Leia Mais</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-              <!-- portfolio item #4 -->
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/4.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Digital</a><a href="#">HR</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">Powerful IT Upgrade Aligns
-                      With Your Objectives</a></h4>
-                  <p class="portfolio__desc">They needed a robust management solution to organize archive critical
-                    documents for client cases, and wanted to determine solutions at every step, and moved </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-              <!-- portfolio item #5 -->
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/5.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Consulting</a><a href="#">Management</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">The Best IT Practices in Cloud
-                      and Security</a></h4>
-                  <p class="portfolio__desc">This single, unified platform integrates all operational phases of
-                    selling and activation of their wireless services and devices, and serves as the backbone of the
-                    operations.</p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-              <!-- portfolio item #6 -->
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/grid/6.jpg" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__content">
-                  <div class="portfolio__cat">
-                    <a href="#">Software</a><a href="#">Security</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="#">Helping Companies With
-                      Healthcare Inustry</a></h4>
-                  <p class="portfolio__desc">Servers going down on a weekly basis had become the organization’s
-                    “normal.” We came on board with the objective of stabilizing the environment, assisting </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
+              <?php endwhile;
+               wp_reset_postdata();
+              ?>
             </div><!-- /.carousel -->
           </div><!-- /.col-12 -->
+
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.portfolio Grid  -->
@@ -456,47 +361,49 @@
               <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-12">
-                    <h4 class="contact-panel__title mb-20">Request A Quote</h4>
-                    <p class="contact-panel__desc mb-30">Our deep pool of certified engineers and IT staff are ready to
-                      help you to keep your IT business safe & ensure high availability.</p>
+                    <h4 class="contact-panel__title mb-20">Entre em contato</h4>
+                    <p class="contact-panel__desc mb-30">Nossos especialistas estão prontos para te ajudar a aumentar suas vendas!</p>
                   </div> <!-- /.col-12 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
+                      <input type="text" class="form-control" placeholder="Nome" id="contact-name" name="contact-name"
                         required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
+                      <input type="email" class="form-control" placeholder="E-mail" id="contact-email"
                         name="contact-email" required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
                       <select class="form-control">
-                        <option value="0">Inquiry</option>
-                        <option value="1">IT Management Services 2</option>
-                        <option value="2">IT Management Services 3</option>
+                        <option value="0">Selecione um Serviço</option>
+                        <option value="1">Consultoria em Marketing</option>
+                        <option value="2">Consultoria em Vendas</option>
+                        <option value="2">Integração Marketing e Vendas</option>
+                        <option value="2">Criação de Chatbots</option>
+                        <option value="2">Outro</option>
                       </select>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
+                      <input type="text" class="form-control" placeholder="Telefone" id="contact-Phone"
                         name="contact-phone">
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Additional Details!" id="contact-message"
+                      <textarea class="form-control" placeholder="Escreva sua Mensagem!" id="contact-message"
                         name="contact-message"></textarea>
                     </div>
                     <div class="custom-control custom-checkbox d-flex align-items-center mb-20">
                       <input type="checkbox" class="custom-control-input" id="acceptTerms">
-                      <label class="custom-control-label" for="acceptTerms">I accept the privacy and terms.</label>
+                      <label class="custom-control-label" for="acceptTerms">Eu aceito os termos da <a href="/politica-de-privacidade/">Política de Privacidade</a></label>
                     </div>
-                    <button type="submit" class="btn btn__primary btn__xl btn__block">Submit Request </button>
+                    <button type="submit" class="btn btn__primary btn__xl btn__block">Enviar Mensagem</button>
                     <div class="contact-result"></div>
                   </div><!-- /.col-12 -->
                 </div><!-- /.row -->

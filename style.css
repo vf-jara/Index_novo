@@ -151,6 +151,9 @@ select {
 /*----------------------------
       Helper Classes
 ----------------------------*/
+.float-right{
+  float: right;
+}
 .sticky-top {
   z-index: 500;
 }
@@ -1459,12 +1462,18 @@ h6 {
     font-size: 50px;
   }
 }
-
+.page-title.page-title-layout16{
+  margin-top:-100px;
+}
 /* Mobile Phones and tablets */
+
 @media (min-width: 320px) and (max-width: 767px) {
   .page-title {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .page-title.page-title-layout16{
+    margin-top:0;
   }
 
   .page-title .pagetitle__subheading {

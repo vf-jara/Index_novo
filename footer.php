@@ -41,8 +41,8 @@
               <div class="footer-widget__content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="/politica-de-privacdade/">Política de Privacidade</a></li>
+                    <li><a href="/contato/">Entre em Contato</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->

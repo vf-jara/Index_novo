@@ -172,7 +172,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
     ========================= -->
     <section class="features-layout1 pb-50">
       <div class="features-bg">
-        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
+        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14.jpg" alt="background"></div>
       </div>
       <div class="container">
         <div class="row heading heading-light mb-30">
@@ -617,48 +617,49 @@ Seja líder do seu mercado. Agende uma conversa conosco!
               <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-12">
-                    <h4 class="contact-panel__title mb-20">Request A Quote</h4>
-                    <p class="contact-panel__desc mb-30">Our deep pool of certified engineers and IT staff are ready
-                      to
-                      help you to keep your IT business safe & ensure high availability.</p>
+                    <h4 class="contact-panel__title mb-20">Entre em contato</h4>
+                    <p class="contact-panel__desc mb-30">Nossos especialistas estão prontos para te ajudar a aumentar suas vendas!</p>
                   </div> <!-- /.col-12 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
+                      <input type="text" class="form-control" placeholder="Nome" id="contact-name" name="contact-name"
                         required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
+                      <input type="email" class="form-control" placeholder="E-mail" id="contact-email"
                         name="contact-email" required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
                       <select class="form-control">
-                        <option value="0">Inquiry</option>
-                        <option value="1">IT Management Services 2</option>
-                        <option value="2">IT Management Services 3</option>
+                        <option value="0">Selecione um Serviço</option>
+                        <option value="1">Consultoria em Marketing</option>
+                        <option value="2">Consultoria em Vendas</option>
+                        <option value="2">Integração Marketing e Vendas</option>
+                        <option value="2">Criação de Chatbots</option>
+                        <option value="2">Outro</option>
                       </select>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
+                      <input type="text" class="form-control" placeholder="Telefone" id="contact-Phone"
                         name="contact-phone">
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Additional Details!" id="contact-message"
+                      <textarea class="form-control" placeholder="Escreva sua Mensagem!" id="contact-message"
                         name="contact-message"></textarea>
                     </div>
                     <div class="custom-control custom-checkbox d-flex align-items-center mb-20">
                       <input type="checkbox" class="custom-control-input" id="acceptTerms">
-                      <label class="custom-control-label" for="acceptTerms">I accept the privacy and terms.</label>
+                      <label class="custom-control-label" for="acceptTerms">Eu aceito os termos da <a href="/politica-de-privacidade/">Política de Privacidade</a></label>
                     </div>
-                    <button type="submit" class="btn btn__primary btn__xl btn__block">Submit Request </button>
+                    <button type="submit" class="btn btn__primary btn__xl btn__block">Enviar Mensagem</button>
                     <div class="contact-result"></div>
                   </div><!-- /.col-12 -->
                 </div><!-- /.row -->

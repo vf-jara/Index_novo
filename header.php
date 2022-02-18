@@ -53,10 +53,10 @@
                 <a href="#" data-toggle="dropdown" id="nav-sobre" class="dropdown-toggle nav__item-link">Sobre</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="sobre.html" class="nav__item-link">Quem somos</a>
+                    <a href="/sobre/" class="nav__item-link">Quem somos</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="careers.html" class="nav__item-link">Trabalhe conosco</a>
+                    <a href="/trabalhe-conosco/" class="nav__item-link">Trabalhe conosco</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
@@ -92,7 +92,7 @@
                     <a href="/blog/"  class="nav__item-link">Nosso Blog</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="/" class="nav__item-link">Estudos de Caso</a>
+                    <a href="/estudos-de-caso/" class="nav__item-link">Estudos de Caso</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
                     <a href="/" class="nav__item-link">Materiais</a>
@@ -100,13 +100,13 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item">
-                <a href="/" class="nav__item-link">Contatos</a>
+                <a href="/contato/" id="nav-contato" class="nav__item-link">Contatos</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
           </div><!-- /.navbar-collapse -->
           <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li class="d-none d-xl-block">
-              <a href=/" class="btn action__btn-contact">Solicite um Orçamento</a>
+              <a href="/" class="btn action__btn-contact">Solicite um Orçamento</a>
             </li>
           </ul><!-- /.navbar-actions -->
         </div><!-- /.container -->
