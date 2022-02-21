@@ -31,7 +31,7 @@
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
-                  <a href="projects-grid.html" class="btn btn__white">Nossos Serviços</a>
+                  <a href="#servicos-grid" data-scroll="servicos-grid" class="btn btn__white">Nossos Serviços</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
@@ -52,7 +52,7 @@
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
-                  <a href="projects-grid.html" class="btn btn__white">Nossos Serviços</a>
+                  <a href="#" data-scroll="servicos-grid" class="btn btn__white">Nossos Serviços</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
@@ -74,8 +74,7 @@
             </div>
           </div><!-- /.col-12 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <h3 class="heading__title mb-40">Resultados Reais no Mundo Digital
-            </h3>
+            <h3 class="heading__title mb-40">Resultados Reais no Mundo Digital</h3>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
             <p>O Marketing Digital trouxe uma verdadeira revolução no comportamento do consumidor. Segundo estudos, 82% dos brasileiros já fizeram ao menos uma compra online. Se a sua empresa ainda não faz parte desse ecossistema digital, estamos aqui para mudar isso!</p>
@@ -170,9 +169,9 @@ Seja líder do seu mercado. Agende uma conversa conosco!
     <!-- ======================
     Features Layout 1
     ========================= -->
-    <section class="features-layout1 pb-50">
+    <section class="features-layout1 pb-50" id="servicos-grid">
       <div class="features-bg">
-        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14.jpg" alt="background"></div>
+        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Abstrato-linhas.jpg" alt="background"></div>
       </div>
       <div class="container">
         <div class="row heading heading-light mb-30">
