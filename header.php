@@ -37,7 +37,7 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
 
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>

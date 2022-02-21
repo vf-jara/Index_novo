@@ -48,9 +48,6 @@ if (head.classList) head.classList.add("header-light");
               <div class="post__content">
                 <div class="post__meta d-inline-flex flex-wrap align-items-center mb-0">
                   
-                  <div class="post__meta-cat">
-                    <a href="#">Consulting</a><a href="#">Sales</a>
-                  </div><!-- /.blog-meta-cat -->
                   <span class="post__meta-date"><?php echo get_the_date(); ?></span>
                 </div><!-- /.blog-meta -->
                 <h1 class="post__title">
@@ -114,9 +111,8 @@ if (head.classList) head.classList.add("header-light");
               <div class="widget widget-search">
                 <h5 class="widget__title">Buscar</h5>
                 <div class="widget__content">
-                  <form class="widget__form-search">
-                  <?php get_search_form(); ?>
-                    <input type="text" class="form-control search-form" placeholder="Search...">
+                  <form class="widget__form-search" action= "/" id="search-form" method="GET">
+                    <input type="text" id="s" name="s" class="form-control search-form" placeholder="O que você procura?">
                     <button class="btn search-submit" id="searchsubmit" type="submit"><i class="icon-search"></i></button>
                   </form>
                 </div><!-- /.widget-content -->

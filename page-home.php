@@ -459,7 +459,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="post-item">
               <div align="center" class="post__img">
-                <a href="blog-single-post.html">
+                <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail('medium')?>
               </div><!-- /.blog-img -->
               <div class="post__content">
@@ -469,7 +469,7 @@ Seja líder do seu mercado. Agende uma conversa conosco!
                   </div> /.blog-meta-cat -->
                   <span class="post__meta-date"><?php echo get_the_date(); ?></span>
                 </div>
-                <h4 class="post__title"><a href="#"><?php the_title(); ?></a>
+                <h4 class="post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h4>
                 <p class="post__desc"><?php echo get_excerpt(); ?>
                 </p>
