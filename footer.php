@@ -78,9 +78,9 @@
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end align-items-center">
               <ul class="social-icons list-unstyled mb-0 mr-30">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/indexdc" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/index.dc/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/index-design-e-comunica%C3%A7%C3%A3o/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
               </ul><!-- /.social-icons -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->

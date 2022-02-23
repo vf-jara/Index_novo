@@ -49,16 +49,8 @@
               <li class="nav__item">
                 <a href="/" id="nav-home" class="nav__item-link">Home</a>
               </li><!-- /.nav-item -->
-              <li class="nav__item  has-dropdown">
-                <a href="#" data-toggle="dropdown" id="nav-sobre" class="dropdown-toggle nav__item-link">Sobre</a>
-                <ul class="dropdown-menu">
-                  <li class="nav__item">
-                    <a href="/sobre/" class="nav__item-link">Quem somos</a>
-                  </li><!-- /.nav-item -->
-                  <li class="nav__item">
-                    <a href="/trabalhe-conosco/" class="nav__item-link">Trabalhe conosco</a>
-                  </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
+              <li class="nav__item">
+                <a href="/sobre/" id="nav-sobre" class="nav__item-link">Quem Somos</a>
               </li><!-- /.nav-item -->
               <li class="nav__item  has-dropdown">
                 <a href="#" data-toggle="dropdown" id="nav-servicos" class="dropdown-toggle nav__item-link">Serviços</a>

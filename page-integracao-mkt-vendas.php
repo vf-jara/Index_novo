@@ -254,88 +254,47 @@
     </section><!-- /.portfolio Grid  -->
 
 
-    <!-- =========================
-       Banner layout 1
+<!-- =========================
+       Banner layout 2
       =========================== -->
-    <section id="banner1" class="banner-layout1 pt-90 pb-90 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/banners/5.jpg" alt="background"></div>
+      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner d-flex flex-column justify-content-between">
-            <div>
-              <div class="heading heading-light">
-                <h3 class="heading__title mb-30">All Kinds Of IT Services That
-                  Vow Future Business Success!</h3>
-                <p class="heading__desc mb-30">We are experienced professionals who understand that It services is
-                  changing,
-                  and are partners who care about your success. As one of the world's largest IT Service Providers,
-                  our
-                  deep pool of certified engineers and IT staff are ready to help.
-                </p>
-              </div><!-- /.heading -->
-              <div class="d-flex align-items-center mb-40">
-                <a href="#" class="btn btn__white btn__icon mr-30">
-                  <span>Get Started</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-                <a href="request-quote.html" class="btn btn__white btn__bordered">Request Demo</a>
-              </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
+            <div class="heading heading-light">
+              <h3 class="heading__title mb-30">Veja o que nossos clientes têm a dizer</h3>
             </div>
             <div class="testimonials testimonials-wrapper">
               <div class="slider-with-navs">
                 <!-- Testimonial #1 -->
                 <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">If you’re looking for a rewarding career and the
-                    chance to make an
-                    impact, you’ve come to the right place. We will transform your business through our techniques!
+                  <p class="testimonial__desc color-white">Consigo me sentir seguro e abraçado pela equipe da Index. Profissionais dedicados e com uma percepção de mercado personalizada para o meu negócio. Minha melhor decisão de investimento em 2021.
                   </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">Ahmed Abdallah</h4>
-                    <p class="testimonial__meta-desc">Digital Media Manager</p>
+                    <h4 class="testimonial__meta-title">Alex Silveira</h4>
+                    <p class="testimonial__meta-desc">Fisioterapeuta</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->
                 <!-- Testimonial #2 -->
                 <div class="testimonial-item">
-                  <p class="testimonial__desc color-white"> If you’re looking for a rewarding career and the chance to
-                    make an impact, you’ve come to the right place. We will transform your business through our
-                    techniques! </p>
+                  <p class="testimonial__desc color-white">A parceria entre Index DC e o Instituto Fisio Deller acontece há mais de 8 anos! O desenvolvimento digital vem crescendo muito rápido e nós precisamos aprender a usar as ferramentas que estão disponíveis. Esse aprendizado foi possível através da Index DC.
+                  </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">John Peter</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
+                    <h4 class="testimonial__meta-title">Rodrigo Deller</h4>
+                    <p class="testimonial__meta-desc">Instituto Fisio Deller</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->
                 <!-- Testimonial #3 -->
                 <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">If you’re looking for a rewarding career and the
-                    chance to make an
-                    impact, you’ve come to the right place. We will transform your business through our techniques!
+                  <p class="testimonial__desc color-white">Sou Cliente da  Index DC há mais de 10 anos e com apoio e expertise desse time podemos acompanhar as evoluções tecnológicas relacionadas ao marketing, às mídias sociais, ao engajamento de nossos clientes e de nosso público alvo.
                   </p>
                   <div class="testimonial__meta">
                     <h4 class="testimonial__meta-title">Ayman</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
+                    <p class="testimonial__meta-desc">Confiança Contabilidade e Consultoria</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->
                 <!-- Testimonial #2 -->
-                <div class="testimonial-item">
-                  <p class="testimonial__desc color-white"> If you’re looking for a rewarding career and the chance to
-                    make an impact, you’ve come to the right place. We will transform your business through our
-                    techniques! </p>
-                  <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">John Peter</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
-                  </div><!-- /.testimonial-meta -->
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
-                <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">My project was a simple & small task, but the
-                    persistence and
-                    determination turned it into an awesome and great project which make me happy .
-                  </p>
-                  <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">John Peter</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
-                  </div><!-- /.testimonial-meta -->
-                </div><!-- /. testimonial-item -->
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
@@ -347,13 +306,44 @@
                 <div class="testimonial__thumb">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
-                </div><!-- /.testimonial-thumb -->
               </div><!-- /.slcik-nav -->
+            </div><!-- /.testimonials -->
+            <div class="divider divider-light w-100 mt-60 mb-60"></div>
+            <div class="heading heading-light">
+              <h3 class="heading__title mb-30">Nossos Clientes</h3>
+            </div>
+            <div class="clients">
+              <div class="slick-carousel"
+                data-slick='{"slidesToShow": 4, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
+                </div><!-- /.client -->
+                <div class="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
+                </div><!-- /.client -->
+              </div><!-- /.carousel -->
             </div>
           </div><!-- /.col-xl-6 -->
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -412,7 +402,7 @@
           </div><!-- /.col-xl-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /.Banner layout 1 -->
+    </section><!-- /.Banner layout 2 -->
 
 
     <?php get_footer(); ?>

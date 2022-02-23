@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row">
           <!-- post Item #1 -->
-          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <?php if (have_posts() ) : while (have_posts() ) : the_post(); ?>
           <!-- Blog Item #1 -->
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="post-item">
