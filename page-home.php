@@ -263,7 +263,7 @@
        
           <!-- Blog Item #1 -->
           <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="post-item">
+            <div class="post-item" style="border: 1px solid rgba(0,0,0,0.15); border-radius: 4px; padding: 10px;">
               <div align="center" class="post__img">
                 <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail('medium')?>
@@ -294,10 +294,10 @@
       </div><!-- /.container -->
     </section><!-- /.blog Grid -->
 
-    <!-- =========================
+<!-- =========================
        Banner layout 2
       =========================== -->
-    <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
@@ -309,7 +309,7 @@
               <div class="slider-with-navs">
                 <!-- Testimonial #1 -->
                 <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">Consigo me sentir seguro e abraçado pela equipe da Index.<br>Profissionais dedicados e com uma percepção de mercado personalizada para o meu negócio.<br> Minha melhor decisão de investimento em 2021.<br><br>
+                  <p class="testimonial__desc color-white">Consigo me sentir seguro e abraçado pela equipe da Index. Profissionais dedicados e com uma percepção de mercado personalizada para o meu negócio. Minha melhor decisão de investimento em 2021.
                   </p>
                   <div class="testimonial__meta">
                     <h4 class="testimonial__meta-title">Alex Silveira</h4>
@@ -318,7 +318,8 @@
                 </div><!-- /. testimonial-item -->
                 <!-- Testimonial #2 -->
                 <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">A parceria entre Index DC e o Instituto Fisio Deller acontece há mais de 8 anos! O desenvolvimento digital vem crescendo muito rápido e nós precisamos aprender a usar as ferramentas que estão disponíveis. Esse aprendizado foi possível através da Index DC.</p>
+                  <p class="testimonial__desc color-white">A parceria entre Index DC e o Instituto Fisio Deller acontece há mais de 8 anos! O desenvolvimento digital vem crescendo muito rápido e nós precisamos aprender a usar as ferramentas que estão disponíveis. Esse aprendizado foi possível através da Index DC.
+                  </p>
                   <div class="testimonial__meta">
                     <h4 class="testimonial__meta-title">Rodrigo Deller</h4>
                     <p class="testimonial__meta-desc">Instituto Fisio Deller</p>
@@ -329,41 +330,15 @@
                   <p class="testimonial__desc color-white">Sou Cliente da  Index DC há mais de 10 anos e com apoio e expertise desse time podemos acompanhar as evoluções tecnológicas relacionadas ao marketing, às mídias sociais, ao engajamento de nossos clientes e de nosso público alvo.
                   </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">Ayman</h4>
+                    <h4 class="testimonial__meta-title">Cleriston Recalcatti</h4>
                     <p class="testimonial__meta-desc">Confiança Contabilidade e Consultoria</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->
                 <!-- Testimonial #2 -->
-                <div class="testimonial-item">
-                  <p class="testimonial__desc color-white"> If you’re looking for a rewarding career and the chance to
-                    make an impact, you’ve come to the right place. We will transform your business through our
-                    techniques! </p>
-                  <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">John Peter</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
-                  </div><!-- /.testimonial-meta -->
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
-                <div class="testimonial-item">
-                  <p class="testimonial__desc color-white">My project was a simple & small task, but the
-                    persistence and
-                    determination turned it into an awesome and great project which make me happy .
-                  </p>
-                  <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">John Peter</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
-                  </div><!-- /.testimonial-meta -->
-                </div><!-- /. testimonial-item -->
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/1.png" alt="author thumb">
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
@@ -469,5 +444,4 @@
       </div><!-- /.container -->
     </section><!-- /.Banner layout 2 -->
 
-    
     <?php get_footer(); ?>

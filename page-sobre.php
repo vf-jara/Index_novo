@@ -11,7 +11,7 @@
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/9.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <h1 class="pagetitle__heading">A Index</h1>
             <p class="pagetitle__desc">Consultoria eficiente para a evolução do seu negócio
             </p>
@@ -73,7 +73,7 @@
             </div>
             <div class="clients offset-xl-1 mb-40">
             <div class="slick-carousel"
-                data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
+                data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/google-agencia-index-dc.png" alt="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/google-agencia-index-dc.png" alt="client">
@@ -123,7 +123,7 @@
     ========================= -->
     <section class="history-timeline pb-0" id="linha-do-tempo">
       <div class="history-timeline-bg bg-overlay bg-overlay-gradient">
-        <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/desfoque-04.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div> 
       </div>
       <div class="container">
         <div class="row heading mb-50">
@@ -337,7 +337,7 @@
     <!-- =========================
        Banner layout 2
       =========================== -->
-    <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+    <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
@@ -370,7 +370,7 @@
                   <p class="testimonial__desc color-white">Sou Cliente da  Index DC há mais de 10 anos e com apoio e expertise desse time podemos acompanhar as evoluções tecnológicas relacionadas ao marketing, às mídias sociais, ao engajamento de nossos clientes e de nosso público alvo.
                   </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">Ayman</h4>
+                    <h4 class="testimonial__meta-title">Cleriston Recalcatti</h4>
                     <p class="testimonial__meta-desc">Confiança Contabilidade e Consultoria</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->

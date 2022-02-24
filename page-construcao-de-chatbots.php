@@ -46,9 +46,9 @@
           <div class="col-12">
             <nav class="nav nav-tabs justify-content-center">
               <a href="#" data-scroll="about" class="nav__link">Descrição</a>
-              <a href="#" data-scroll="banner3" class="nav__link">Principais Benefícios</a>
+              <!--<a href="#" data-scroll="banner3" class="nav__link">Principais Benefícios</a>-->
               <a href="#" data-scroll="case-studies" class="nav__link">Estudos de Caso</a>
-              <a href="#" data-scroll="banner1" class="nav__link">Entre em Contato</a>
+              <a href="#" data-scroll="contato" class="nav__link">Entre em Contato</a>
             </nav>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -275,7 +275,7 @@
 <!-- =========================
        Banner layout 2
       =========================== -->
-      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
@@ -308,7 +308,7 @@
                   <p class="testimonial__desc color-white">Sou Cliente da  Index DC há mais de 10 anos e com apoio e expertise desse time podemos acompanhar as evoluções tecnológicas relacionadas ao marketing, às mídias sociais, ao engajamento de nossos clientes e de nosso público alvo.
                   </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">Ayman</h4>
+                    <h4 class="testimonial__meta-title">Cleriston Recalcatti</h4>
                     <p class="testimonial__meta-desc">Confiança Contabilidade e Consultoria</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->

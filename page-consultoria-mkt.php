@@ -48,7 +48,7 @@
               <a href="#" data-scroll="about" class="nav__link">Descrição</a>
               <a href="#" data-scroll="banner3" class="nav__link">Principais Serviços</a>
               <a href="#" data-scroll="case-studies" class="nav__link">Estudos de Caso</a>
-              <a href="#" data-scroll="banner1" class="nav__link">Entre em Contato</a>
+              <a href="#" data-scroll="contato" class="nav__link">Entre em Contato</a>
             </nav>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -66,29 +66,32 @@
               <div class="d-flex align-items-center mb-20">
                 <div class="divider divider-primary mr-30"></div>
               </div>
-              <h3 class="heading__title mb-40">Consultoria em marketing
+              <h3 class="heading__title mb-40">Afinal, o que é uma consultoria em Marketing?
               </h3>
             </div>
           </div><!-- /.col-xl-5 -->
         </div><!-- /.row -->
         <div class="row about__Text">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-11">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div class=" position-relative">
               <i class="icon-quote"></i>
               <p>Independentemente do tamanho do negócio, toda empresa tem o desejo de aumentar as vendas e os lucros. Para isso, uma das melhores coisas a se fazer é contratar uma consultoria em marketing.</p>
               <p>Com esse serviço, o seu negócio terá o suporte de profissionais qualificados, que realmente entendem de marketing e que otimizarão os seus investimentos em publicidade e comunicação.</p>
-              <p><strong>Quer saber mais sobre o assunto e entender, de fato, o que é uma consultoria em marketing? Então, prossiga com a leitura!</strong> </p>
-              <h5>Afinal, o que é uma consultoria em marketing?</h5>
-              <p>A consultoria em marketing é um serviço que visa aconselhar as empresas sobre as melhores ações a serem realizadas nessa área. Dessa forma, os investimentos são direcionados da melhor forma possível e o contratante consegue melhores resultados em vendas, bem como ganhos em imagem e reputação.</p>
+              <p>Nossa consultoria em marketing define as melhores ações a serem realizadas nessa área. Dessa forma, os investimentos são direcionados da melhor forma possível e gerando melhores resultados em vendas, reputação e imagem</p>
               <h5>Como é feito o trabalho de uma consultoria em marketing?</h5>
-              <p>O trabalho de uma consultoria em marketing, inicialmente, realiza um diagnóstico para identificar métricas, indicadores e outros pontos que podem ser melhorados na empresa.</p>
-              <p>Para isso, é necessário conhecer as diretrizes organizacionais, como a missão, a visão e os valores da empresa. Os consultores também analisam relatórios de vendas, mapeiam a presença da marca nas redes sociais e outros canais, entre outras atividades.</p>
-              <p>Também é feito um completo estudo de públicos do negócio, bem como a definição das personas (personagens semi fictícios e que representam o cliente ideal). Isso é importante para que as estratégias de marketing sejam pensadas para atingir a quem realmente pode se tornar um lead ou consumidor da empresa.</p>
+              <p>O trabalho começa realizando um diagnóstico para identificar métricas, indicadores e outros pontos que podem ser melhorados.
+              Nossos consultores também analisam relatórios de vendas, mapeiam a presença da sua marca nas redes sociais e outros canais, entre outras atividades.</p>
+              <p>Também é feito um completo estudo de públicos do seu negócio, para que as estratégias de marketing sejam pensadas para atingir a quem realmente pode se tornar um lead ou consumidor da empresa.</p>
               <p>A partir de todo esse trabalho é montado um diagnóstico, que apresenta como está o marketing da empresa atualmente e o que deve ser melhorado para que os resultados desejados sejam alcançados.</p>
-              <p>Assim, o consultor propõe um planejamento estratégico de marketing, que conta com todos os serviços e ações que devem ser realizadas na empresa.</p>
+              <p>Assim, propomos um planejamento estratégico de marketing, que conta com todos os serviços e ações que devem ser realizadas em sua empresa.</p>
             </div>
-
           </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-lg-1">
+            <div class="sticky-top"  style="top:125px;">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/1.jpg" alt="about">
+            </div>
+            
+          </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.About Layout 3 -->
@@ -100,14 +103,16 @@
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/desfoque-04.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light text-center">
             <div class="heading heading-light mb-60">
-              <h3 class="heading__title mb-30">Quais são os principais serviços que uma empresa de marketing oferece?</h3>
-              <h4 class="heading__desc">Entre as principais estratégias de marketing que podem ser propostas por uma consultoria, destacamos as relacionadas a seguir. Veja!
+              <h3 class="heading__title mb-30">Quais são os principais serviços que<br>nossa consultoria em marketing oferece?</h3>
+              <h4 class="heading__desc">Veja algumas das estratégias de marketing que <br> traremos para você!
               </h4>
             </div><!-- /.heading -->
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 fancybox-light"> 
+        </div>  <!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 fancybox-light"> 
             <!-- fancybox item #1 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -115,12 +120,12 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Inbound marketing</h4>
-                <p class="fancybox__desc">O inbound marketing é uma estratégia que envolve uma série de ações voltadas para a criação e compartilhamento de informações de interesse para um determinado público.
-                  Ao  praticar o inbound marketing, portanto, são produzidos conteúdos para blogs, redes sociais e outros canais da empresa, visando atrair a atenção do público. 
-                  Todos os materiais produzidos seguem regras de SEO, para que sejam bem posicionados em buscas em sites de pesquisa, como o Google.
+                <p class="fancybox__desc">Criação e compartilhamento de conteúdo de interesse específico para seu público, utilizando técnicas de SEO para ranqueamento nos melhores buscadores da internet.
                 </p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
+          </div><!-- /.col-xl-3 -->  
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 fancybox-light"> 
             <!-- fancybox item #2 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -128,12 +133,12 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Design</h4>
-                <p class="fancybox__desc">No campo do design, a consultoria pode propor melhorias na identidade visual da empresa, como a renovação do logotipo e das peças gráficas. O desenvolvimento de sites e blogs também entra nesse segmento, tendo em vista que as páginas são criadas por web designers.
+                <p class="fancybox__desc">Nossos designers realizam melhorias na identidade visual da empresa, como a renovação de peças gráficas, logotipos, sites e blogs.
                 </p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->           
-          </div><!-- /.col-xl-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 fancybox-light">
+          </div><!-- /.col-xl-3 -->  
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 fancybox-light">
             <!-- fancybox item #3 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -141,22 +146,26 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Campanhas pagas</h4>
-                <p class="fancybox__desc">Os especialistas em tráfego pago gerenciam os anúncios das empresas em plataformas como o Google Ads e o Facebook Ads. A ideia é agir estrategicamente para que os anúncios sejam mostrados apenas para os públicos de interesse. Assim, os investimentos são mais certeiros e se evita “jogar dinheiro fora” ao investir em publicidade paga.</p>
+                <p class="fancybox__desc">Gerenciamento de Google Ads e o Facebook Ads. A ideia é agir estrategicamente para que os anúncios sejam mostrados apenas para os públicos de interesse.</p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
-            <!-- fancybox item #4 -->
+          </div><!-- /.col-xl-3 -->  
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 fancybox-light">
             <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-script"></i>
-              </div><!-- /.fancybox__icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Social media</h4>
-                <p class="fancybox__desc">Boa parte das ações de marketing, hoje em dia, se desenvolvem nas redes sociais. Por isso, é de fundamental importância investir nesse segmento.
-                 Os estrategistas de marketing podem sugerir melhorias na produção de conteúdo, bem como nas ações voltadas para o relacionamento em redes como o Instagram, o Facebook, o Twitter, entre outras.
-                </p>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-xl-6 -->  
+                <div class="fancybox__icon">
+                  <i class="icon-script"></i>
+                </div><!-- /.fancybox__icon -->
+                <div class="fancybox__content">
+                  <h4 class="fancybox__title">Social media</h4>
+                  <p class="fancybox__desc">Nossos estrategistas de marketing realizam melhorias na produção de conteúdo e no relacionamento em redes como o Instagram, o Facebook, o Twitter, entre outras.
+                  </p>
+                </div><!-- /.fancybox-content -->
+              </div><!-- /.fancybox-item -->
+          </div><!-- /.col-xl-3 -->  
+
+        </div>  <!-- /.row -->
+            
+
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
             <div class="heading heading-light mb-60">
               <h3 align="center" class="heading__title mb-30">Para saber mais sobre o assunto e aumentar as suas vendas,<br> <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">agende um café com os nossos especialistas.</a><br> Teremos satisfação em atendê-lo!</h3>
@@ -269,7 +278,7 @@
  <!-- =========================
        Banner layout 2
       =========================== -->
-      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
@@ -302,7 +311,7 @@
                   <p class="testimonial__desc color-white">Sou Cliente da  Index DC há mais de 10 anos e com apoio e expertise desse time podemos acompanhar as evoluções tecnológicas relacionadas ao marketing, às mídias sociais, ao engajamento de nossos clientes e de nosso público alvo.
                   </p>
                   <div class="testimonial__meta">
-                    <h4 class="testimonial__meta-title">Ayman</h4>
+                    <h4 class="testimonial__meta-title">Cleriston Recalcatti</h4>
                     <p class="testimonial__meta-desc">Confiança Contabilidade e Consultoria</p>
                   </div><!-- /.testimonial-meta -->
                 </div><!-- /. testimonial-item -->

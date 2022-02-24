@@ -29,6 +29,10 @@
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.page-title -->
+
+
+
+
     <!-- ==========================
         contact layout 1
     =========================== -->
@@ -89,35 +93,8 @@
               </form>
             </div>
           </div><!-- /.col-xl-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-1 mb-3">
-            <div class="contact-info d-flex flex-column justify-content-between">
-              <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/contact/1.jpg" alt="banner"></div>
-              <div>
-                <h4 class="contact-info__title">450,000 client’s interactions!</h4>
-                <p class="contact-info__desc">Provide users with appropriate view access to requests, problems, changes,
-                  contracts & solutions with experienced professionals.</p>
-                <p class="contact-info__desc">As one of the world's largest ITService Providers, we are ready to help.
-                </p>
-              </div>
-              <a href="contact-us.html" class="btn btn__white btn__bordered btn__icon">
-                <span>Download Brochure</span>
-                <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.contact-info -->
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.contact layout 1 -->
-
-    <!-- ==========================
-       Contact layout 2
-    ============================ -->
-    <section class="contact-layout2 pt-0 pb-80">
-      <div class="container">
-        <div class="row">
-          <!-- Contact panel #1 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="contact-info-box">
+          <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-1 mb-3 pt-5" style="background-color: rgb(40,40,40,6%);">
+          <div class="contact-info-box">
               <h4 class="contact__info-box-title">Nosso Escritório em Dourados</h4>
               <ul class="contact__info-list list-unstyled">
                 <li>Email: <a href="mailto:atendimento@indexdc.com">atendimento@indexdc.com</a></li>
@@ -126,11 +103,23 @@
                 <li>Horário: Segunda a Sexta: 7am – 5pm</li>
               </ul><!-- /.contact__info-list -->
             </div><!-- /.contact-info-box -->
+            <div id="map" class="">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7386.623119283774!2d-54.81839680255253!3d-22.22825469913203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9489a9472f000b95%3A0x580c703ead71fffd!2sMy%20Job%20Coworking!5e0!3m2!1spt-BR!2sbr!4v1645729393315!5m2!1spt-BR!2sbr" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
           </div><!-- /.col-lg-4 -->
           
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /.Contact layout 2 -->
+    </section><!-- /.contact layout 1 -->
 
+    
+    <!-- ========================= 
+            Google Map
+    =========================  -->
+    <section class="google-map py-0">
+      
+    </section><!-- /.GoogleMap -->
+
+  
 
     <?php get_footer(); ?>
