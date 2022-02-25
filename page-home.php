@@ -217,6 +217,8 @@
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
+
+        <?php /*
         <div class="row counters-wrapper counters-light mt-70">
                 <!-- counter item #1 -->
                 <div class="col-lg-4 col-md-4">
@@ -239,7 +241,7 @@
                     <p class="counter__desc">algum outro dado aleatório</p>
                   </div><!-- /.counter-item -->
                 </div><!-- /.col-sm-4 -->
-              </div><!-- /.row -->
+              </div><!-- /.row -->       */ ?>
       </div><!-- /.container -->
     </section><!-- /.Features Layout 1 -->
     
@@ -263,7 +265,7 @@
        
           <!-- Blog Item #1 -->
           <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="post-item" style="border: 1px solid rgba(0,0,0,0.15); border-radius: 4px; padding: 10px;">
+            <div class="post-item">
               <div align="center" class="post__img">
                 <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail('medium')?>
@@ -352,36 +354,36 @@
             <div class="heading heading-light">
               <h3 class="heading__title mb-30">Nossos Clientes</h3>
             </div>
-            <div class="clients">
+            <div class="clients mb-20">
               <div class="slick-carousel"
                 data-slick='{"slidesToShow": 4, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
                 </div><!-- /.client -->
               </div><!-- /.carousel -->
             </div>

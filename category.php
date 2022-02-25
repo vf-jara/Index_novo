@@ -13,8 +13,8 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout16 text-center bg-overlay bg-overlay-gradient bg-parallax" style="margin-top:-100px;">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/12.jpg" alt="background"></div>
+    <section class="page-title page-title-layout16 text-center bg-parallax" style="margin-top:-100px;">
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/fundo-BLACK.png" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">

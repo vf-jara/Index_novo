@@ -8,7 +8,7 @@
        page title 
     =========================== -->
     <section class="page-title page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/9.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/8.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -55,16 +55,8 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="heading mb-30">
-              <div class="d-flex align-items-center mb-20">
-                <div class="divider divider-primary mr-30"></div>
-                <h2 class="heading__subtitle mb-0"></h2>
-              </div>
-              <h3 class="heading__title mb-40">
 
-
-              </h3>
-            </div><!-- /heading -->
+            <div class="divider divider-primary mr-30"></div>
             <div class="position-relative offset-xl-1">
               <i class="icon-quote"></i>
               <p>A Index nasceu em 2003 como uma agência de marketing e publicidade tradicional. Em 2015 passamos por uma <strong>transformação digital</strong>, deixando de ser uma agência tradicional para nos tornar uma <strong>consultoria especializada em Marketing Digital e Vendas</strong>, com foco na expansão de negócios através da internet, gerando <strong>Resultados Reais.</strong></p>
@@ -109,9 +101,9 @@
               Nós vamos te ajudar a implementar estratégias digitais para fazer a sua empresa vender mais através da internet. <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">Agende um café conosco!</a>  </p>
             </div>
           </div><!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
-            <div class="about__img mb-40">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/1.jpg" alt="about">
+          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-lg-1">
+            <div class="sticky-top"  style="top:125px;">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/chess.jpg" alt="about">
             </div><!-- /.about-img -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -122,8 +114,8 @@
     History Timeline
     ========================= -->
     <section class="history-timeline pb-0" id="linha-do-tempo">
-      <div class="history-timeline-bg bg-overlay bg-overlay-gradient">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div> 
+      <div class="history-timeline-bg">
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div> 
       </div>
       <div class="container">
         <div class="row heading mb-50">
@@ -392,36 +384,36 @@
             <div class="heading heading-light">
               <h3 class="heading__title mb-30">Nossos Clientes</h3>
             </div>
-            <div class="clients">
+            <div class="clients mb-20">
               <div class="slick-carousel"
-                data-slick='{"slidesToShow": 4, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
+                data-slick='{"slidesToShow": 5, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
                 </div><!-- /.client -->
               </div><!-- /.carousel -->
             </div>

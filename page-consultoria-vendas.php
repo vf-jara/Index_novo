@@ -13,7 +13,7 @@
        page title 
     =========================== -->
     <section class="page-title page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/9.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/alvo.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -45,7 +45,7 @@
         <div class="row">
           <div class="col-12">
             <nav class="nav nav-tabs justify-content-center">
-              <a href="#" data-scroll="sobre" class="nav__link">Descrição</a>
+              <a href="#" data-scroll="about" class="nav__link">Descrição</a>
               <a href="#" data-scroll="banner3" class="nav__link">Principais Benefícios</a>
               <a href="#" data-scroll="case-studies" class="nav__link">Estudos de Caso</a>
               <a href="#" data-scroll="contato" class="nav__link">Entre em Contato</a>
@@ -72,7 +72,7 @@
           </div><!-- /.col-xl-5 -->
         </div><!-- /.row -->
         <div class="row about__Text">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-11">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div class=" position-relative">
               <i class="icon-quote"></i>
               <p>A sua empresa está com dificuldades para encontrar novos métodos para abordar clientes em potencial? O faturamento está abaixo do esperado e você precisa vender mais? Se situações como essas estão acontecendo, uma boa saída é contratar uma consultoria de vendas.</p>
@@ -91,6 +91,12 @@
             </div>
 
           </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-lg-1">
+            <div class="sticky-top"  style="top:125px;">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/70.jpg" alt="about">
+            </div>
+            
+          </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.About Layout 3 -->
@@ -104,16 +110,14 @@
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/desfoque-04.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 fancybox-light">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
             <div class="heading heading-light mb-60">
-              <h3 class="heading__title mb-30">Veja os principais benefícios de contratar uma consultoria de vendas</h3>
-              <h4 class="heading__desc">Contratar uma consultoria de vendas é bastante benéfico para empresas de todos os segmentos. Veja, a seguir, as principais vantagens que são obtidas!
-              </h4>
+              <h3 align="center" class="heading__title mb-30">Veja os principais benefícios de nossa consultoria de vendas</h3>
             </div><!-- /.heading -->
           </div>
-          </div>
-          <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 fancybox-light"> 
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 fancybox-light"> 
             <!-- fancybox item #1 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -121,11 +125,13 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Criação de um método de vendas eficiente</h4>
-                <p class="fancybox__desc">O consultor de vendas irá propor um método de vendas organizado e eficiente para a sua empresa. Assim, se evitam falhas e gargalos que resultam na fuga de clientes.<br>O funil de vendas, por exemplo, é um método muito eficiente e altamente explorado atualmente, principalmente nas estratégias de marketing digital.
+                <p class="fancybox__desc">O consultor de vendas irá propor um método de vendas organizado e eficiente para a sua empresa. Assim, se evitam falhas e gargalos que resultam na fuga de clientes.
 
                 </p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
+            </div><!-- /.col-xl-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 fancybox-light"> 
             <!-- fancybox item #2 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -133,12 +139,12 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
               <h4 class="fancybox__title">Redução de custos</h4>
-                <p class="fancybox__desc">De nada adianta você investir muito dinheiro em telemarketing, caso o seu público não goste desse tipo de abordagem, por exemplo.<br>Com a consultoria de vendas, o seu negócio terá um plano de abordagem alinhado com o perfil do seu público. Isso torna as atividades mais certeiras e o custo é reduzido.
+                <p class="fancybox__desc">Com a consultoria de vendas, o seu negócio terá um plano de abordagem alinhado com o perfil do seu público. Isso torna as atividades mais certeiras e o custo é reduzido.
                 </p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->           
-          </div><!-- /.col-xl-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 fancybox-light">
+          </div><!-- /.col-xl-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 fancybox-light">
             <!-- fancybox item #3 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
@@ -146,13 +152,13 @@
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Otimização do tempo</h4>
-                <p class="fancybox__desc">Como haverá um processo de vendas muito bem estruturado, o tempo dos vendedores será otimizado.<br>Não será mais necessário perder muitas horas do dia para solucionar problemas, por exemplo. Afinal, tudo será muito bem organizado.</p>
+                <p class="fancybox__desc">Como haverá um processo de vendas muito bem estruturado, o tempo dos vendedores será otimizado. Não será mais necessário perder muitas horas do dia para solucionar problemas.</p>
               </div><!-- /.fancybox-content -->
             </div><!-- /.fancybox-item -->
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12  fancybox-light">
             <div class="heading heading-light mb-60">
-              <h3 align="left" class="heading__title mb-30">A Index é uma agência focada em gerar resultados reais e que pode ajudá-lo nesse momento.<br> <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">Entre em contato conosco</a><br> e converse com nossos especialistas!</h3>
-
-
+            <h3 align="center" class="heading__title mb-30">Para saber mais sobre o assunto e aumentar as suas vendas,<br> <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">agende um café com os nossos especialistas.</a><br> Teremos satisfação em atendê-lo!</h3>
             </div><!-- /.heading -->
           </div><!-- /.col-xl-6 -->  
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 fancybox-light">
@@ -318,36 +324,36 @@
             <div class="heading heading-light">
               <h3 class="heading__title mb-30">Nossos Clientes</h3>
             </div>
-            <div class="clients">
+            <div class="clients mb-20">
               <div class="slick-carousel"
                 data-slick='{"slidesToShow": 4, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alex-silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/chaledacuesta.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Logo-Confianca.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/4.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Fisio-Deller.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/5.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/6.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/7.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
                 </div><!-- /.client -->
               </div><!-- /.carousel -->
             </div>
