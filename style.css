@@ -1055,6 +1055,12 @@ select {
 .background-size-auto {
   background-size: auto !important;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .background-size-auto-mobile{
+  background-size:auto !important;
+  }
+  
+}
 
 .bg-parallax {
   background-attachment: fixed;
@@ -1466,6 +1472,12 @@ h6 {
 .page-title.page-title-layout16{
   margin-top:-100px;
 }
+@media (min-width: 768px) and (max-width: 991px){
+  .page-title-layout16 {
+    margin-top:0 !important;
+  }
+}
+
 /* Mobile Phones and tablets */
 
 @media (min-width: 320px) and (max-width: 767px) {

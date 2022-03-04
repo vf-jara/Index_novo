@@ -12,13 +12,16 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/chatbot.jpg" alt="background"></div>
+    <section class="page-title background-size-auto-mobile page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
+      <div class="bg-img"><img src="<?php 
+      $bg = 'chatbot.jpg';
+      bg_change($bg);
+      ?>" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
             <h1 class="pagetitle__heading">Construção de Chatbots</h1>
-            <p class="pagetitle__desc">Concentre-se no seu negócio e nós te ajudamos com o marketing!
+            <p class="pagetitle__desc">Implementação de Chatbots para levar seu atendimento para o próximo nível!
             </p>
             <div class="d-flex align-items-center flex-wrap">
               <a href="request-quote.html" class="btn btn__white btn__icon mr-30">

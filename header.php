@@ -12,6 +12,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -65,7 +66,7 @@
                           <li class="nav__item"><a class="nav__item-link" href="/consultoria-em-vendas/">Consultoria em
                               Vendas</a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="integracao-mkt-e-vendas/">Integração
+                          <li class="nav__item"><a class="nav__item-link" href="/integracao-mkt-e-vendas/">Integração
                               Marketing & Vendas</a>
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="/criacao-de-chatbots/">Criação de

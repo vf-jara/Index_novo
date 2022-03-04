@@ -180,7 +180,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item text-center">
               <div class="feature__icon">
-                <i class="icon-software"></i>
+                <span class="fa-solid fa-bullhorn"></span>
               </div>
               <h4 class="feature__title">Consultoria em Marketing</h4>
               <a href="#" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
@@ -300,7 +300,7 @@
        Banner layout 2
       =========================== -->
       <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">

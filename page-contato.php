@@ -13,8 +13,11 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout16 text-center bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/90.jpg" alt="background"></div>
+    <section class="page-title background-size-auto-mobile page-title-layout16 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img"><img src="<?php 
+      $bg = '90.jpg';
+      bg_change($bg);
+      ?>" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">

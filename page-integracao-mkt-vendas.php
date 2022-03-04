@@ -12,8 +12,11 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/integra.jpg" alt="background"></div>
+    <section class="page-title background-size-auto-mobile page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img"><img src="<?php 
+      $bg = 'integra.jpg';
+      bg_change($bg);
+      ?>" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
