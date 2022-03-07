@@ -14,7 +14,7 @@
        page title 
     =========================== -->
     <section class="page-title page-title-layout16 text-center bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page-titles/fundo-BLACK.png" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">

@@ -27,7 +27,7 @@
                     crescendo.
                     Conte conosco nessa nova jornada de crescimento digital!
                   </p>
-                  <a href="#" class="btn btn__primary btn__icon mr-30">
+                  <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn btn__primary btn__icon mr-30">
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -48,11 +48,11 @@
                     crescendo.
                     Conte conosco nessa nova jornada de crescimento digital!
                   </p>
-                  <a href="#" class="btn btn__primary btn__icon mr-30">
+                  <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn btn__primary btn__icon mr-30">
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
-                  <a href="#" data-scroll="servicos-grid" class="btn btn__white">Nossos Serviços</a>
+                  <a href="#servicos-grid" data-scroll="servicos-grid" class="btn btn__white">Nossos Serviços</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
@@ -180,40 +180,40 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item text-center">
               <div class="feature__icon">
-                <span class="fa-solid fa-bullhorn"></span>
+              <i class="icone-megaphone"></i>
               </div>
               <h4 class="feature__title">Consultoria em Marketing</h4>
-              <a href="#" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="http://index.local/consultoria-em-marketing/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #2 -->
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item text-center">
               <div class="feature__icon">
-                <i class="icon-dos"></i>
+                <i class="icone-vendas"></i>
               </div>
               <h4 class="feature__title">Consultoria em Vendas</h4>
-              <a href="#" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="http://index.local/consultoria-em-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #3 -->
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item text-center">
               <div class="feature__icon">
-                <i class="icon-operating-system"></i>
+                <span class="icone-integra"></span>
               </div>
               <h4 class="feature__title">Integração Marketing & Vendas</h4>
-              <a href="#" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="http://index.local/integracao-mkt-e-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #4 -->
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item text-center">
               <div class="feature__icon">
-                <i class="icon-machine-learning"></i>
+                <i class="icone-chat"></i>
               </div>
               <h4 class="feature__title">Criação de<br> Chatbots</h4>
-              <a href="#" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="http://index.local/criacao-de-chatbots/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
@@ -340,13 +340,13 @@
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/1.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/alex-foto.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/rodrigo2.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/cleriston.jpeg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
               </div><!-- /.slcik-nav -->
             </div><!-- /.testimonials -->
@@ -362,8 +362,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
@@ -378,8 +378,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">

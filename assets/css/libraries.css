@@ -25,6 +25,7 @@
     font-display: block
 }
 
+
 [class*=" icon-"],
 [class^=icon-] {
     font-family: icomoon !important;
@@ -168,4 +169,57 @@
 }
 .icon-website:before {
   content: "\e927";
+}
+@font-face {
+  font-family: icomoon2;
+  src: url(../fonts/fontes-novas/icomoon.eot);
+  src: url(../fonts/fontes-novas/icomoon.eot) format("embedded-opentype"), url(../fonts/fontes-novas/icomoon.ttf) format("truetype"), url(../fonts/fontes-novas/icomoon.woff) format("woff"), url(../fonts/fontes-novas/icomoon.svg) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block
+}
+[class*=" icone-"],
+[class^=icone-] {
+    font-family: icomoon2 !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.icone-megaphone:before{
+  content: "\e021";
+}
+.icone-vendas:before{
+  content: "\e018";
+}
+.icone-integra:before{
+  content: "\e02b";
+}
+.icone-chat:before{
+  content: "\e049";
+}
+.icone-alvo:before{
+  content: "\e04e";
+}
+.icone-design:before{
+  content: "\e033";
+}
+.icone-campanha:before{
+  content: "\e00c";
+}
+.icone-social:before{
+  content: "\e028";
+}
+.icone-estrategia:before{
+  content: "\e03b";
+}
+.icone-carteira:before{
+  content: "\e016";
+}
+.icone-tempo:before{
+  content: "\e01f";
 }

@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="Index | Hub de transformação de negócios">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon/indexfavicon.png" rel="icon">
   <title>Index | Hub de transformação de negócios</title>
 
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Roboto:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -99,7 +99,7 @@
           </div><!-- /.navbar-collapse -->
           <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li class="d-none d-xl-block">
-              <a href="/" class="btn action__btn-contact">Solicite um Orçamento</a>
+              <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn action__btn-contact">Solicite um Orçamento</a>
             </li>
           </ul><!-- /.navbar-actions -->
         </div><!-- /.container -->

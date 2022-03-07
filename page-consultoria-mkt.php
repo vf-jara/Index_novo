@@ -119,7 +119,7 @@
             <!-- fancybox item #1 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-coding"></i>
+              <i class="icone-alvo"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Inbound marketing</h4>
@@ -132,7 +132,7 @@
             <!-- fancybox item #2 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-programming2"></i>
+                <i class="icone-design"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Design</h4>
@@ -145,7 +145,7 @@
             <!-- fancybox item #3 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-script"></i>
+              <i class="icone-campanha"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Campanhas pagas</h4>
@@ -156,7 +156,7 @@
           <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 fancybox-light">
             <div class="fancybox-item">
                 <div class="fancybox__icon">
-                  <i class="icon-script"></i>
+                <i class="icone-social"></i>
                 </div><!-- /.fancybox__icon -->
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Social media</h4>
@@ -282,7 +282,7 @@
        Banner layout 2
       =========================== -->
       <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
@@ -322,13 +322,13 @@
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/1.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/alex-foto.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/rodrigo2.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/cleriston.jpeg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
               </div><!-- /.slcik-nav -->
             </div><!-- /.testimonials -->
@@ -344,8 +344,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
@@ -360,8 +360,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">

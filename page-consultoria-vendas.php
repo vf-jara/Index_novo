@@ -16,7 +16,7 @@
       <div class="bg-img"><img src="<?php 
 
       $bg = 'alvo.jpg';
-      bg_change($bg);
+      echo bg_change($bg);
     
       ?>" alt="background"></div>
       <div class="container">
@@ -26,7 +26,7 @@
             <p class="pagetitle__desc">Estratégias eficientes para definir seu publico e potencializar suas vendas
             </p>
             <div class="d-flex align-items-center flex-wrap">
-              <a href="request-quote.html" class="btn btn__white btn__icon mr-30">
+              <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn btn__white btn__icon mr-30">
                 <span>Solicite um Orçamento</span><i class="icon-arrow-right"></i>
               </a>
             </div>
@@ -126,7 +126,7 @@
             <!-- fancybox item #1 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-coding"></i>
+              <i class="icone-estrategia"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Criação de um método de vendas eficiente</h4>
@@ -140,7 +140,7 @@
             <!-- fancybox item #2 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-programming2"></i>
+               <i class="icone-carteira"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
               <h4 class="fancybox__title">Redução de custos</h4>
@@ -153,7 +153,7 @@
             <!-- fancybox item #3 -->
             <div class="fancybox-item">
               <div class="fancybox__icon">
-                <i class="icon-script"></i>
+                <i class="icone-tempo"></i>
               </div><!-- /.fancybox__icon -->
               <div class="fancybox__content">
                 <h4 class="fancybox__title">Otimização do tempo</h4>
@@ -275,7 +275,7 @@
        Banner layout 2
       =========================== -->
       <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/14-2.jpg" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
@@ -315,13 +315,13 @@
               </div>
               <div class="slider-nav">
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/1.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/alex-foto.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/rodrigo2.png" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__thumb">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonials/thumbs/cleriston.jpeg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
               </div><!-- /.slcik-nav -->
             </div><!-- /.testimonials -->
@@ -337,8 +337,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Açotelha.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Alex-Silveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/alexsilveira.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Probel.png" alt="client">
@@ -353,8 +353,8 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Confiança.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Move-Mais.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/movemais1.png" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/Medicall.png" alt="client">
