@@ -193,7 +193,7 @@ $(function () {
             $(contactResult, contactForm).html('Please Wait...');
             $.ajax({
                 type: "POST",
-                url: "assets/php/contact.php",
+                url: "../contact.php",
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {
