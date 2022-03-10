@@ -23,7 +23,6 @@ function index_css(){
 add_action('wp_enqueue_scripts', 'index_css');
 
 
-
 function bg_change($image){
     $useragent=$_SERVER['HTTP_USER_AGENT'];
         
