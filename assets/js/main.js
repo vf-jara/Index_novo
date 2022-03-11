@@ -188,12 +188,13 @@ $(function () {
     var contactForm = $("#contactForm"),
         contactResult = $('.contact-result');
     contactForm.validate({
+        preventDefault: true,
         debug: false,
         submitHandler: function (contactForm) {
             $(contactResult, contactForm).html('Please Wait...');
             $.ajax({
                 type: "POST",
-                url: "../contact.php",
+                url: "../../contact.php",
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {

@@ -18,9 +18,11 @@ if(isset($_POST['contact-email']) && !empty($_POST['contact-email'])){
             ."X-Mailer:PHP/".phpversion();
 
   if(mail($to,$subject,$body,$header)){
-     echo ('<script type="text/javascript"> alert("Mensagem enviada, entraremos em contato em breve!"); </script>');
+    //  echo ('<script type="text/javascript"> alert("Mensagem enviada, entraremos em contato em breve!"); </script>');
+    return true;
   }else{
-	echo ('<script type="text/javascript"> alert("Algo deu errado, tente novamente!"); </script>');
+	  // echo ('<script type="text/javascript"> alert("Algo deu errado, tente novamente!"); </script>');
+    return false;
   }
 
 }
