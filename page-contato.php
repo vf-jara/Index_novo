@@ -44,7 +44,7 @@
         <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
             <div class="contact-panel">
-              <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+              <form class="contact-panel__form" method="post" action="#" id="contactForm">
                 <div class="row">
                   <div class="col-12">
                     <h4 class="contact-panel__title mb-20">Entre em contato</h4>
