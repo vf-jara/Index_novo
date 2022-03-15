@@ -436,6 +436,7 @@
                       <label class="custom-control-label" for="acceptTerms">Eu aceito os termos da <a href="/politica-de-privacidade/">Política de Privacidade</a></label>
                     </div>
                     <button type="submit" class="btn btn__primary btn__xl btn__block">Enviar Mensagem</button>
+                    <div class="contact-result"></div>
                   </div><!-- /.col-12 -->
                 </div><!-- /.row -->
               </form>

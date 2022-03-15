@@ -350,8 +350,8 @@
             </div>
           </div><!-- /.col-xl-6 -->
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <div class="contact-panel">
-              <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+          <div class="contact-panel">
+              <form class="contact-panel__form" method="POST" action="<?php echo get_template_directory_uri(); ?>/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-12">
                     <h4 class="contact-panel__title mb-20">Entre em contato</h4>
@@ -383,7 +383,7 @@
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Telefone" id="contact-Phone"
+                      <input type="text" class="form-control" placeholder="Telefone" id="contact-phone"
                         name="contact-phone">
                     </div>
                   </div><!-- /.col-lg-6 -->
