@@ -19,7 +19,7 @@
             <p class="pagetitle__desc">Consultoria eficiente para a evolução do seu negócio
             </p>
             <div class="d-flex align-items-center flex-wrap">
-              <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank" class="btn btn__white btn__icon mr-30">
+              <a href="https://conteudo.indexdc.com.br/agende-uma-reuniao" target="_blank" class="btn btn__white btn__icon mr-30">
                 <span>Solicite um Orçamento</span><i class="icon-arrow-right"></i>
               </a>
             </div>
@@ -42,7 +42,7 @@
           <div class="col-12">
             <nav class="nav nav-tabs justify-content-center">
               <a href="#" data-scroll="about" class="nav__link">A Index</a>
-              <a href="#" data-scroll="linha-do-tempo" class="nav__link">Nossa Linha do Tempo</a>
+            <!--  <a href="#" data-scroll="linha-do-tempo" class="nav__link">Nossa Linha do Tempo</a> -->
               <a href="#" data-scroll="blog-recentes" class="nav__link">Postagens Recentes</a>
               <a href="#" data-scroll="contato" class="nav__link">Entre em Contato</a>
             </nav>
@@ -101,7 +101,7 @@
             </div>
             <div class="position-relative offset-xl-1">              
               <p class="mb-40">Quer fazer sua empresa vender mais?
-              Nós vamos te ajudar a implementar estratégias digitais para fazer a sua empresa vender mais através da internet. <a href="https://conteudo.indexdc.com.br/especialistas/" target="_blank">Agende um café conosco!</a>  </p>
+              Nós vamos te ajudar a implementar estratégias digitais para fazer a sua empresa vender mais através da internet. <a href="https://conteudo.indexdc.com.br/agende-uma-reuniao" target="_blank">Agende um café conosco!</a>  </p>
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-lg-1">
@@ -332,7 +332,7 @@
 <!-- =========================
        Banner layout 2
       =========================== -->
-      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
+      <section id="contato" class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
       <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div>
       <div class="container-fluid">
         <div class="row">

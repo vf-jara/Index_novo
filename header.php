@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,8 +12,8 @@
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Roboto:wght@400;700&display=swap">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<?php wp_head(); ?>
 </head>
-
 <body>
   <div class="wrapper">
     <div class="preloader">
@@ -99,11 +98,9 @@
           </div><!-- /.navbar-collapse -->
           <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li class="d-none d-xl-block">
-              <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn action__btn-contact">Solicite um Orçamento</a>
+              <a href="https://conteudo.indexdc.com.br/agende-uma-reuniao" class="btn action__btn-contact">Solicite um Orçamento</a>
             </li>
           </ul><!-- /.navbar-actions -->
         </div><!-- /.container -->
       </nav><!-- /.navbar -->
     </header><!-- /.Header -->
-    
-    <?php wp_head(); ?>

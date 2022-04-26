@@ -281,8 +281,8 @@
  <!-- =========================
        Banner layout 2
       =========================== -->
-      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div>
+      <section class="banner-layout2 pb-0 bg-overlay bg-overlay-gradient" id="contato">
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
@@ -371,7 +371,7 @@
             </div>
           </div><!-- /.col-xl-6 -->
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <div class="contact-panel">
+          <div class="contact-panel">
               <form class="contact-panel__form" method="POST" action="<?php echo get_template_directory_uri(); ?>/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-12">

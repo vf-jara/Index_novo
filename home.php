@@ -1,4 +1,3 @@
-
 <?php
 // Template Name: Blog
 ?>
@@ -14,7 +13,7 @@
        page title 
     =========================== -->
     <section class="page-title page-title-layout16 text-center bg-parallax">
-      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/Fundo-BLACK.png" alt="background"></div>
+      <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/backgrounds/bg-preto.png" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -56,7 +55,7 @@
                 </div>
                 <h4 class="post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h4>
-                <p class="post__desc"><?php echo get_excerpt(); ?>
+                <p class="post__desc"><?php the_excerpt(); ?>
                 </p>
                 <a href="<?php the_permalink(); ?>" target="_blank" class="btn btn__secondary btn__link">
                   <span>Leia Mais</span>

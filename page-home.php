@@ -1,4 +1,3 @@
-
 <?php
 // Template Name: Home
 ?>
@@ -27,7 +26,7 @@
                     crescendo.
                     Conte conosco nessa nova jornada de crescimento digital!
                   </p>
-                  <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn btn__primary btn__icon mr-30">
+                  <a href="https://conteudo.indexdc.com.br/agende-uma-reuniao" class="btn btn__primary btn__icon mr-30">
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -48,7 +47,7 @@
                     crescendo.
                     Conte conosco nessa nova jornada de crescimento digital!
                   </p>
-                  <a href="https://conteudo.indexdc.com.br/especialistas/" class="btn btn__primary btn__icon mr-30">
+                  <a href="https://conteudo.indexdc.com.br/agende-uma-reuniao" class="btn btn__primary btn__icon mr-30">
                     <span>Saiba mais</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -74,9 +73,9 @@
             </div>
           </div><!-- /.col-12 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <h3 class="heading__title mb-40">Resultados Reais no Mundo Digital</h3>
-            <p>O Marketing Digital trouxe uma verdadeira revolução no comportamento do consumidor. Segundo estudos, 82% dos brasileiros já fizeram ao menos uma compra online. Se a sua empresa ainda não faz parte desse ecossistema digital, estamos aqui para mudar isso!</p>
-            <p>Somos um Hub de transformação digital de negócios, com estratégias definidas para trazer resultados reais e crescimento contínuo para a sua empresa.
+            <h3 class="heading__title mb-40">Seja Líder do seu mercado, invista em Marketing!</h3>
+            <p><strong>82%</strong> dos <strong>brasileiros</strong> já fizeram <strong>compras online</strong>. Se a sua empresa não se posiciona no digital, você está <strong>perdendo vendas!</strong></p>
+            <p>Somos um Hub de <strong>transformação digital de negócios</strong>, com estratégias definidas para trazer <strong>resultados reais</strong> e <strong>crescimento contínuo</strong> para a sua empresa.
             Seja líder do seu mercado. Agende uma conversa conosco!</p>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
@@ -92,7 +91,7 @@
         <div class="row">
           <div class="col-12">
             <p class="text__link text-center mb-30">Certificações e 
-              <a href="it-solutions.html" class="btn btn__link btn__primary btn__underlined">Parcerias</a>
+              <a href="#" class="btn btn__link btn__primary btn__underlined">Parcerias</a>
             </p>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -183,7 +182,7 @@
               <i class="icone-megaphone"></i>
               </div>
               <h4 class="feature__title">Consultoria em Marketing</h4>
-              <a href="http://index.local/consultoria-em-marketing/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="/consultoria-em-marketing/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #2 -->
@@ -193,7 +192,7 @@
                 <i class="icone-vendas"></i>
               </div>
               <h4 class="feature__title">Consultoria em Vendas</h4>
-              <a href="http://index.local/consultoria-em-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="/consultoria-em-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #3 -->
@@ -203,7 +202,7 @@
                 <span class="icone-integra"></span>
               </div>
               <h4 class="feature__title">Integração Marketing & Vendas</h4>
-              <a href="http://index.local/integracao-mkt-e-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="/integracao-mkt-e-vendas/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
           <!-- Feature item #4 -->
@@ -213,7 +212,7 @@
                 <i class="icone-chat"></i>
               </div>
               <h4 class="feature__title">Criação de<br> Chatbots</h4>
-              <a href="http://index.local/criacao-de-chatbots/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
+              <a href="/criacao-de-chatbots/" class="btn__link"><i class="icon-arrow-right icon-outlined"></i></a>
             </div><!-- /.feature-item -->
           </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
