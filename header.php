@@ -87,7 +87,7 @@
                     <a href="/estudos-de-caso/" class="nav__item-link">Estudos de Caso</a>
                   </li><!-- /.nav-item -->
                   <li class="nav__item">
-                    <a href="/" class="nav__item-link">Materiais</a>
+                    <a href="https://conteudo.indexdc.com.br/mkt-in-wonderland" class="nav__item-link">Cursos Gratuitos</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
