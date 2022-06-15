@@ -4282,7 +4282,9 @@ input[type=radio] {
   margin-bottom: 30px;
   text-transform: initial;
 }
-
+.talentos{
+  min-height: 440px !important;
+}
 .slider .slide__talentos {
   font-size: 70px;
   font-weight: 600;
@@ -4406,7 +4408,9 @@ input[type=radio] {
 
 /* Medium Size Screens */
 @media (min-width: 768px) and (max-width: 991px) {
-  .slider .slide__title {
+
+  .slider .slide__title,
+  .slider .slide__talentos {
     font-size: 45px;
     line-height: 60px;
     margin-bottom: 10px;
@@ -4429,7 +4433,8 @@ input[type=radio] {
     height: auto !important;
   }
 
-  .slider .slide__desc {
+  .slider .slide__desc,
+  .slider .slide__desc__talentos {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -4438,7 +4443,9 @@ input[type=radio] {
 
 /*  Small Screens and tablets  */
 @media (min-width: 576px) and (max-width: 767px) {
-  .slider .slide__title {
+
+  .slider .slide__title,
+  .slider .slide__talentos {
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 10px;
@@ -4459,7 +4466,8 @@ input[type=radio] {
     margin-bottom: 15px;
   }
 
-  .slider .slide__title {
+  .slider .slide__title,
+  .slider .slide__talentos {
     font-size: 27px;
     margin-bottom: 10px;
   }

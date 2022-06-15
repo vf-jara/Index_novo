@@ -36,7 +36,7 @@
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
-        <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" >
+        <div class="slide-item talentos align-v-h bg-overlay" >
           <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Banner-1.jpeg" alt="slide img"></div>
           <div class="container">
             <div class="row">
@@ -75,7 +75,7 @@
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
-        <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" >
+        <div class="slide-item talentos align-v-h bg-overlay" >
           <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Banner-2.jpeg" alt="slide img"></div>
           <div class="container">
             <div class="row">
