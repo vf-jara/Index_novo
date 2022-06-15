@@ -49,9 +49,16 @@
               <li class="nav__item">
                 <a href="/" id="nav-home" class="nav__item-link">Home</a>
               </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="/sobre/" id="nav-sobre" class="nav__item-link">Quem Somos</a>
-              </li><!-- /.nav-item -->
+              <li class="nav__item  has-dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link" id="nav-blog">A Index</a>
+                <ul class="dropdown-menu">
+                  <li class="nav__item">
+                    <a href="/sobre/"  class="nav__item-link">Sobre Nós</a>
+                  </li><!-- /.nav-item -->
+                  <li class="nav__item">
+                    <a href="https://conteudo.indexdc.com.br/banco-de-talentos" target="_blank" class="nav__item-link">Trabalhe Conosco</a>
+                  </li><!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
               <li class="nav__item  has-dropdown">
                 <a href="#" data-toggle="dropdown" id="nav-servicos" class="dropdown-toggle nav__item-link">Serviços</a>
                 <ul class="dropdown-menu wide-dropdown-menu">

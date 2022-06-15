@@ -14,7 +14,7 @@
     ============================== -->
     <section class="slider">
       <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0"
-        data-slick='{"slidesToShow": 1,"arrows": true, "dots": true, "speed": 4500,"fade": true,"cssEase": "ease"}'>
+        data-slick='{"slidesToShow": 1,"arrows": true,"pauseonhover":false,"autoplay":true, "dots": true, "speed": 4500,"fade": true,"cssEase": "ease"}'>
         <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" >
           <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Homem-negocios-2.jpg" alt="slide img"></div>
           <div class="container">
@@ -36,6 +36,24 @@
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
+        <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" >
+          <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Banner-1.jpeg" alt="slide img"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="text-center">
+                  <h2 class="slide__talentos">Banco de <strong>Talentos</strong></h2>
+                  <p class="slide__desc__talentos">Estamos em busca de novos talentos,<br>faça parte do nosso time!
+                  </p>
+                  <a href="https://conteudo.indexdc.com.br/banco-de-talentos" class="btn btn__primary btn__talentos btn__icon mr-30">
+                    <span>QUERO ME INSCREVER</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-7 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay bg-overlay-gradient">
           <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Mulher-de-negocios-2.jpg" alt="slide img"></div>
           <div class="container">
@@ -52,6 +70,24 @@
                     <i class="icon-arrow-right"></i>
                   </a>
                   <a href="#servicos-grid" data-scroll="servicos-grid" class="btn btn__white">Nossos Serviços</a>
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-7 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+        <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" >
+          <div class="bg-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sliders/Banner-2.jpeg" alt="slide img"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="text-center">
+                  <h2 class="slide__talentos">Banco de <strong>Talentos</strong></h2>
+                  <p class="slide__desc__talentos">Estamos em busca de novos talentos,<br>faça parte do nosso time!
+                  </p>
+                  <a href="https://conteudo.indexdc.com.br/banco-de-talentos" class="btn btn__primary btn__talentos btn__icon mr-30">
+                    <span>QUERO ME INSCREVER</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
